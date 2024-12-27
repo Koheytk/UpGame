@@ -17,11 +17,10 @@ public class GameManager : MonoBehaviour
     public int level;
     void Start()
     {        
-        hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
+        //hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
         level=2;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if(player.transform.position.y>14*level)

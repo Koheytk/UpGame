@@ -74,6 +74,7 @@
     <Compile Include="Assets\MyScript\Coin.cs" />
     <Compile Include="Assets\MyScript\UILevelManager.cs" />
     <Compile Include="Assets\MyScript\SpawnManager.cs" />
+    <Compile Include="Assets\Simple 2D Platformer BE2\ReadMe\Scripts\ReadmeBE2.cs" />
     <Compile Include="Assets\MyScript\Player.cs" />
     <Compile Include="Assets\MyScript\HitPoint.cs" />
     <Compile Include="Assets\MyScript\SpawnPoint.cs" />
@@ -1259,6 +1260,10 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.RenderPipelines.Core.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.VSCode.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.VSCode.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.RenderPipelines.Universal.Runtime">
