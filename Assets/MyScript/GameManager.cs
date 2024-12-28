@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     public int level;
     void Start()
     {        
-        //hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
+        hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
         level=2;
     }
 
