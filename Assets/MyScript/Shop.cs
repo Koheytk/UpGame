@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class Shop : MonoBehaviour
 {
@@ -49,6 +50,8 @@ public class Shop : MonoBehaviour
             Coin.CoinCount-=jumpLevelUpValue;
             Coin.CoinSet();
             player.jumpLevel++;
+            Text text=GameObject.Find("PlayerLevel").GetComponent<Text>();
+            text.text="Lv. "+player.jumpLevel;
         } 
     }
 
