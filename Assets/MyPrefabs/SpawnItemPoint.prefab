@@ -44,6 +44,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1ed6d319f0dbd3445a2c3c9cddf74b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spawned: {fileID: 2644316447651445951, guid: 490ddb0a3853c514196d3904e7e22038, type: 3}
+  spawned: {fileID: 6591682079240427964, guid: 072b0322d28efc643a5ccbf9015661a0, type: 3}
+  Coin: {fileID: 0}
   spawnedObject: {fileID: 0}
   currentLevel: 2
