@@ -47,5 +47,8 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Forward
+    uniqueID: 1057148557
+    locked: 0
   m_RenderingLayers:
   - Default
