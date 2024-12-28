@@ -15,7 +15,7 @@ D:/kohet/UpUpUp
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-57254
+58614
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/kohet/UpUpUp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [16140]  Target information:
+Player connection [19912]  Target information:
 
-Player connection [16140]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 3349936621 [EditorId] 3349936621 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-020BEL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19912]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 798593619 [EditorId] 798593619 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-020BEL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [16140] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [16140] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19912] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19912] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 3.77 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.30 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56272
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003080 seconds.
-- Loaded All Assemblies, in  0.442 seconds
+Registered in 0.002392 seconds.
+- Loaded All Assemblies, in  0.348 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.299 seconds
-Domain Reload Profiling: 741ms
-	BeginReloadAssembly (163ms)
+- Finished resetting the current domain, in  0.283 seconds
+Domain Reload Profiling: 630ms
+	BeginReloadAssembly (141ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (38ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (52ms)
-	LoadAllAssembliesAndSetupDomain (176ms)
-		LoadAssemblies (163ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (129ms)
+		LoadAssemblies (140ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (172ms)
-			TypeCache.Refresh (171ms)
-				TypeCache.ScanAssembly (159ms)
+		AnalyzeDomain (127ms)
+			TypeCache.Refresh (126ms)
+				TypeCache.ScanAssembly (114ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (299ms)
+	FinalizeReload (283ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (259ms)
+		SetupLoadedEditorAssemblies (243ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (49ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (7ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (59ms)
+			InitializePlatformSupportModulesInManaged (41ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (6ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (56ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,1762 +140,608 @@ Domain Reload Profiling: 741ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.699 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.684 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.690 seconds
-Domain Reload Profiling: 1389ms
-	BeginReloadAssembly (166ms)
+- Finished resetting the current domain, in  0.694 seconds
+Domain Reload Profiling: 1377ms
+	BeginReloadAssembly (153ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (6ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (13ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (29ms)
-	LoadAllAssembliesAndSetupDomain (459ms)
-		LoadAssemblies (321ms)
+	LoadAllAssembliesAndSetupDomain (460ms)
+		LoadAssemblies (297ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (246ms)
-			TypeCache.Refresh (181ms)
-				TypeCache.ScanAssembly (165ms)
-			BuildScriptInfoCaches (54ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (691ms)
+		AnalyzeDomain (258ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (168ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (694ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (572ms)
+		SetupLoadedEditorAssemblies (567ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (6ms)
 			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (409ms)
-			ProcessInitializeOnLoadMethodAttributes (90ms)
+			ProcessInitializeOnLoadAttributes (406ms)
+			ProcessInitializeOnLoadMethodAttributes (88ms)
 			AfterProcessingInitializeOnLoad (6ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 1.33 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.44 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6533 unused Assets / (4.1 MB). Loaded Objects now: 7211.
-Memory consumption went from 177.5 MB to 173.4 MB.
-Total: 7.587500 ms (FindLiveObjects: 0.639400 ms CreateObjectMapping: 0.563800 ms MarkObjects: 4.339800 ms  DeleteObjects: 2.043800 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 24320.899920 seconds.
-  path: Assets/Tilemap/tileset-1_4.asset
-  artifactKey: Guid(fa2f66e7ae78bdf409533f8d61865695) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_4.asset using Guid(fa2f66e7ae78bdf409533f8d61865695) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9f0652d35e407a04b42c1bf597ada92c') in 0.0410547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.062541 seconds.
-  path: Assets/Tilemap/tileset-1_7.asset
-  artifactKey: Guid(ffe5c9e237a851043bf6323d046e5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_7.asset using Guid(ffe5c9e237a851043bf6323d046e5ea7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd8e9e647fa031360fc16dab5a48d51fd') in 0.003412 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.911995 seconds.
-  path: Assets/Tilemap/tileset-1_10.asset
-  artifactKey: Guid(fb461ea9ba12a554f828fe7d8adb6ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_10.asset using Guid(fb461ea9ba12a554f828fe7d8adb6ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '22fd2773abaac953d30534fc668f9996') in 0.0024155 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_11.asset
-  artifactKey: Guid(5e82cb10d77dd474cacef19a84d91f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_11.asset using Guid(5e82cb10d77dd474cacef19a84d91f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6d8677936cf320b9bdcfb04852d4517a') in 0.0024758 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.296271 seconds.
-  path: Assets/Tilemap/tileset-1_14.asset
-  artifactKey: Guid(5d5873fee1c16fa4fb5e198a6310e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_14.asset using Guid(5d5873fee1c16fa4fb5e198a6310e590) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2650ca0685b55ee017ba091a628ef14d') in 0.0028269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_18.asset
-  artifactKey: Guid(d1d8d66935ed9f740ac9c10fc2f47a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_18.asset using Guid(d1d8d66935ed9f740ac9c10fc2f47a5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '385b636b68983abd5b6773daed36ec16') in 0.0022338 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_21.asset
-  artifactKey: Guid(8522b582ce1f60a4cb3112df6786154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_21.asset using Guid(8522b582ce1f60a4cb3112df6786154d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b623d96612d2664531273d4f4f530602') in 0.002666 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_25.asset
-  artifactKey: Guid(25e621f06db6c5b4597023d45eede5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_25.asset using Guid(25e621f06db6c5b4597023d45eede5b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b35f2a8186b9ac1b5482fa5c16285fe') in 0.0024552 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_28.asset
-  artifactKey: Guid(854ec25d6ebb7974b8ae4d3404377b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_28.asset using Guid(854ec25d6ebb7974b8ae4d3404377b8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9b660456825ea394a3e7724bcc3a6fdd') in 0.0024107 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.180160 seconds.
-  path: Assets/Tilemap/tileset-1_32.asset
-  artifactKey: Guid(31ce6dd3e630e984f819e6b35a5ca8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_32.asset using Guid(31ce6dd3e630e984f819e6b35a5ca8d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76727d0b550f13d53f982bb1db73c948') in 0.0036692 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_35.asset
-  artifactKey: Guid(e0922356187b20f499f3d0fc67a1066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_35.asset using Guid(e0922356187b20f499f3d0fc67a1066f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43265743030ddfc4ce759a37e6d2ed5b') in 0.0030202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_43.asset
-  artifactKey: Guid(d2b1b0b5c91f3bd4db2ea4b7d6514189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_43.asset using Guid(d2b1b0b5c91f3bd4db2ea4b7d6514189) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e01a627adc6db46e55cb0d96263e1370') in 0.0021875 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemap/tileset-1_41.asset
-  artifactKey: Guid(2c4b1986220015e4b8eed557f53d2fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_41.asset using Guid(2c4b1986220015e4b8eed557f53d2fd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f07fea8a214112d841bac5141dd05ff') in 0.0027971 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_47.asset
-  artifactKey: Guid(b0590f95daeaf564cb3bbc9edb2a7653) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_47.asset using Guid(b0590f95daeaf564cb3bbc9edb2a7653) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c17bbcff4f9e09f5766e5b4142673f8') in 0.0023572 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.183718 seconds.
-  path: Assets/Tilemap/tileset-1_50.asset
-  artifactKey: Guid(6b22cec44db22a44f9ea5d546e5bcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_50.asset using Guid(6b22cec44db22a44f9ea5d546e5bcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '06a4219ea4e60800c10d8df27cbc7d4c') in 0.0035701 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Tilemap/tileset-1_56.asset
-  artifactKey: Guid(7a6dd7ed59bf82e429d973204a2be15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_56.asset using Guid(7a6dd7ed59bf82e429d973204a2be15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94335fcc90a94b80e8ca2c38c4c6a2be') in 0.0029166 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Tilemap/tileset-1_59.asset
-  artifactKey: Guid(d12e29f5b0b58f1418e70c1c145e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_59.asset using Guid(d12e29f5b0b58f1418e70c1c145e0c8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5fdf21724d70e17a520663531a0def7c') in 0.0034392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.149176 seconds.
-  path: Assets/Tilemap/tileset-1_62.asset
-  artifactKey: Guid(2dbf1e27f354882419c4eb6a00c2daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_62.asset using Guid(2dbf1e27f354882419c4eb6a00c2daf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baf1d5c3f1e7ffb11f9e7e86ae4a548b') in 0.0028323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_67.asset
-  artifactKey: Guid(cbba403bbdc6762469cc052c966a5ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_67.asset using Guid(cbba403bbdc6762469cc052c966a5ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e24608891f48e1be26940f3f51277fa') in 0.0025689 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_81.asset
-  artifactKey: Guid(bcc72a93f421b544584d69be94443cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_81.asset using Guid(bcc72a93f421b544584d69be94443cdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49d4c24a4957d21f789302e528718eec') in 0.00216 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_127.asset
-  artifactKey: Guid(3ab6757e1189bae448fa247de7c5d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_127.asset using Guid(3ab6757e1189bae448fa247de7c5d063) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '103061a9ff9038541d09e1e8414d92e4') in 0.0023378 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_184.asset
-  artifactKey: Guid(b38878f24c476df47aac72c309450f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_184.asset using Guid(b38878f24c476df47aac72c309450f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8eae4d963bb66dcf329b4968e9c04261') in 0.0027952 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_116.asset
-  artifactKey: Guid(3168a4803aa1aa445af86fb505891f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_116.asset using Guid(3168a4803aa1aa445af86fb505891f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd9f49131c5abcfa56e8d1440d7938492') in 0.0023251 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_259.asset
-  artifactKey: Guid(87c24bbd27666374f83a41ab869d9d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_259.asset using Guid(87c24bbd27666374f83a41ab869d9d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e0962b871659f902bd88caae0beab4a') in 0.0022007 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemap/tileset-1_261.asset
-  artifactKey: Guid(33d1663a608546045aa0bd765ff4d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_261.asset using Guid(33d1663a608546045aa0bd765ff4d63c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88dc69901b4ca96883810de5753b7788') in 0.0024547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_254.asset
-  artifactKey: Guid(0b33c76373e748a4c8305c145fbac9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_254.asset using Guid(0b33c76373e748a4c8305c145fbac9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4e5cc3bc5a2056ac9e955caf27f20efa') in 0.0029035 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Tilemap/tileset-1_424.asset
-  artifactKey: Guid(bc60e50cdec5969428e086441b6e3655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_424.asset using Guid(bc60e50cdec5969428e086441b6e3655) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a72fd4465271725efacd3de0ac858e2d') in 0.0031607 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_205.asset
-  artifactKey: Guid(42f6da21139518b49a6f556b075c4a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_205.asset using Guid(42f6da21139518b49a6f556b075c4a43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c8c289fcfb8373c1c2f4fdb3511a131') in 0.0034486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_629.asset
-  artifactKey: Guid(d1a3675a39bff6f4c8b269c12ca3bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_629.asset using Guid(d1a3675a39bff6f4c8b269c12ca3bc15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1b31f1064ab66ee0f55fb6302141a916') in 0.0021795 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_742.asset
-  artifactKey: Guid(77c80d574b6e1914489331ac6188af28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_742.asset using Guid(77c80d574b6e1914489331ac6188af28) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672339efd82fd70a39bbbfac3418e6ba') in 0.0021518 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_741.asset
-  artifactKey: Guid(e132c71df3247e541a671557692a2036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_741.asset using Guid(e132c71df3247e541a671557692a2036) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5f315830a004220185ae1d840b572f24') in 0.0024428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_406.asset
-  artifactKey: Guid(366d6e82c7065334990ae65e8cd7ddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_406.asset using Guid(366d6e82c7065334990ae65e8cd7ddc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3b48fdacb6e1131a4721dc984378754') in 0.0024625 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_249.asset
-  artifactKey: Guid(bb4148528aacbfb47bfabf9b65fc1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_249.asset using Guid(bb4148528aacbfb47bfabf9b65fc1bc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca7bc18a9d68b6f2edcf3a02451f3137') in 0.0027134 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemap/tileset-1_892.asset
-  artifactKey: Guid(6a3c368c02c8ae947b4fa44a72c47391) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_892.asset using Guid(6a3c368c02c8ae947b4fa44a72c47391) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f8981c95a4a5965826fccfbfa003317') in 0.0021108 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_615.asset
-  artifactKey: Guid(17857e2320fb3e947a32d3b2ed1ecf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_615.asset using Guid(17857e2320fb3e947a32d3b2ed1ecf39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd24e46d37078a8fd13a2119dbabd39fc') in 0.0024355 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_750.asset
-  artifactKey: Guid(aa4b2fe6b63cacb4d9058f82e1d1b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_750.asset using Guid(aa4b2fe6b63cacb4d9058f82e1d1b413) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8505cc8babe027ff457886f3dac39657') in 0.0028492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_903.asset
-  artifactKey: Guid(cb7714a9cbe99014a9390407b58fbb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_903.asset using Guid(cb7714a9cbe99014a9390407b58fbb7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27171ad5890e7d211a3bbc3456938b97') in 0.0025117 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000058 seconds.
-  path: Assets/Tilemap/tileset-1_1398.asset
-  artifactKey: Guid(7c2436ec28761444bafa559d489deb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1398.asset using Guid(7c2436ec28761444bafa559d489deb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3496dd26c0f3a1cdea3d77b8e89b2ffa') in 0.0031428 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_336.asset
-  artifactKey: Guid(d7ca1ee417f071e478be8a4e576b3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_336.asset using Guid(d7ca1ee417f071e478be8a4e576b3b31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f460ff2d026a45aed82d727675b1fddb') in 0.0025092 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1516.asset
-  artifactKey: Guid(30747f9f8fa2d7a48a0d6260e3f122d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1516.asset using Guid(30747f9f8fa2d7a48a0d6260e3f122d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44ebcf2d69862bf684077149ebfc0d10') in 0.0021156 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1550.asset
-  artifactKey: Guid(40bf302f8525e5a4694a4fc6a3fe692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1550.asset using Guid(40bf302f8525e5a4694a4fc6a3fe692a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e41eecfdad279c5d86a2688ca7facd4') in 0.0030009 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_1586.asset
-  artifactKey: Guid(6e17b2d2ad7372742969493e48eeadb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1586.asset using Guid(6e17b2d2ad7372742969493e48eeadb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6a3f422693b82a60b1474621fb9223fd') in 0.0022157 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Tilemap/tileset-1_1598.asset
-  artifactKey: Guid(8517c0bffa216414f8ea993191c4f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1598.asset using Guid(8517c0bffa216414f8ea993191c4f27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '88ce1b9ae9c6674a34795f7e45ea5831') in 0.0031574 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_1246.asset
-  artifactKey: Guid(2eea93c87555a6645bce1d23607f51d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1246.asset using Guid(2eea93c87555a6645bce1d23607f51d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95e5a465896c4901e17e6d2ed0f6b274') in 0.002191 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_613.asset
-  artifactKey: Guid(5845118b3d3ccbc40aabcc5f4a799240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_613.asset using Guid(5845118b3d3ccbc40aabcc5f4a799240) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41007684b523fef20fcaa3e3b03741e3') in 0.0026193 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_507.asset
-  artifactKey: Guid(549e728cd1cefb342bff3cea6d28121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_507.asset using Guid(549e728cd1cefb342bff3cea6d28121a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c3bdf667109ba489d5471d572bab95b') in 0.0027361 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_342.asset
-  artifactKey: Guid(b4db06ab4b212a5459e1606d6c5b9b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_342.asset using Guid(b4db06ab4b212a5459e1606d6c5b9b7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd03732cd57954abdc1d17596fe39495') in 0.0021238 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1342.asset
-  artifactKey: Guid(57317fa774e6acc4f896181a5354ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1342.asset using Guid(57317fa774e6acc4f896181a5354ded2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea5c713dff7b1ac12a683eb13fe072fb') in 0.0025977 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1633.asset
-  artifactKey: Guid(a204f28bf8575b54da2dd99354beaaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1633.asset using Guid(a204f28bf8575b54da2dd99354beaaa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c73c2640dade6d37334d64f2eec0496') in 0.0025216 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_506.asset
-  artifactKey: Guid(6f8047af8a9d6974dbb7420155a6aff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_506.asset using Guid(6f8047af8a9d6974dbb7420155a6aff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fafe7a5ffdc9f98bfabf7bb2ed29720b') in 0.002427 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tilemap/tileset-1_508.asset
-  artifactKey: Guid(80964efcef7c03641b828ecef4d3f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_508.asset using Guid(80964efcef7c03641b828ecef4d3f654) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4573160a43077070333f4e0bd5d9257f') in 0.0034682 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_1723.asset
-  artifactKey: Guid(44fe3faed88c3ad43b8f42545fe8bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1723.asset using Guid(44fe3faed88c3ad43b8f42545fe8bec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '095f4e90c99f9212b8c9b21e7d5d07bb') in 0.0021032 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tilemap/tileset-1_1438.asset
-  artifactKey: Guid(69c71ce701946e8468b89a61cb3dc4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1438.asset using Guid(69c71ce701946e8468b89a61cb3dc4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'da0433b1f8881f2c817c173616235b57') in 0.0026045 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_503.asset
-  artifactKey: Guid(6b29f6d40ba5df642809c6cf90ec6a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_503.asset using Guid(6b29f6d40ba5df642809c6cf90ec6a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b58fd5fd6473c3682ec74d50ca1f8ab') in 0.0023197 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_75.asset
-  artifactKey: Guid(d7296c71fff3cfc47993fea94181ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_75.asset using Guid(d7296c71fff3cfc47993fea94181ec38) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '21e39345f62c63210ae17740738a6bae') in 0.0027139 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_349.asset
-  artifactKey: Guid(f5c2586057bcef0458884d68f9e34d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_349.asset using Guid(f5c2586057bcef0458884d68f9e34d1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8fd8e7a6e01dfbfb19eed186d117fe51') in 0.0023505 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_1635.asset
-  artifactKey: Guid(6ef0dfaddf7c98a4f8ce8ce1dc6a22eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1635.asset using Guid(6ef0dfaddf7c98a4f8ce8ce1dc6a22eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a1d999b749a0d7a96c681cc8a0e4391') in 0.0024611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_421.asset
-  artifactKey: Guid(1bc329f28fc6d2a46ae1a72f175f1353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_421.asset using Guid(1bc329f28fc6d2a46ae1a72f175f1353) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e0c5fe36887e1f6d4fffbb3514bd142') in 0.0030489 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1519.asset
-  artifactKey: Guid(c7ca8adfc762b714a8e7e63f9706f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1519.asset using Guid(c7ca8adfc762b714a8e7e63f9706f3da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ca25c3ad9c02178ef88534260cd0f4b0') in 0.0026295 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1584.asset
-  artifactKey: Guid(5f2011867605ed84b8bb97abbcfad314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1584.asset using Guid(5f2011867605ed84b8bb97abbcfad314) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a094d072ee0583d2c0561bbc819907c2') in 0.0038232 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemap/tileset-1_118.asset
-  artifactKey: Guid(dbfec12a0868fa54aaa2634075a39537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_118.asset using Guid(dbfec12a0868fa54aaa2634075a39537) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3b4b9a168f4fabef2d72133a8cec72a8') in 0.0023236 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1505.asset
-  artifactKey: Guid(6ac63753b8ce9e04c8276696e3ce9add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1505.asset using Guid(6ac63753b8ce9e04c8276696e3ce9add) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'adc047e8231c760a3299dd8321e63288') in 0.0027914 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_414.asset
-  artifactKey: Guid(3de40741dbad8be4f9e7221d75054b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_414.asset using Guid(3de40741dbad8be4f9e7221d75054b11) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4765a8b95f48572489564b83515cea25') in 0.0025431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1583.asset
-  artifactKey: Guid(e9626bfddc51ace4a94e1dffa53ee44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1583.asset using Guid(e9626bfddc51ace4a94e1dffa53ee44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '366b43c7426944320c1e53d8812deb3e') in 0.0024111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemap/tileset-1_1446.asset
-  artifactKey: Guid(e916cd130262882469f400397c88cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1446.asset using Guid(e916cd130262882469f400397c88cc26) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1302d6b1e997a105e6a392c52344e8be') in 0.0022731 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1155.asset
-  artifactKey: Guid(dafd60c4318782c4da3590e3eefb7a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1155.asset using Guid(dafd60c4318782c4da3590e3eefb7a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7095ee4ca39154e9a511a3a365526184') in 0.0026755 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_1250.asset
-  artifactKey: Guid(ea9b1a7b3923f8d4a973ec9e49481dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1250.asset using Guid(ea9b1a7b3923f8d4a973ec9e49481dcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '69c4569bf8612ab933dc1b04664e8105') in 0.0032934 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1432.asset
-  artifactKey: Guid(70c76cf5fa3ab1f49a4aa7a2a892ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1432.asset using Guid(70c76cf5fa3ab1f49a4aa7a2a892ea85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd30eda01f085ed881e9b086dcaebf4c') in 0.0024202 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1555.asset
-  artifactKey: Guid(4dae3d52e357ed84c857a71a2e31bf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1555.asset using Guid(4dae3d52e357ed84c857a71a2e31bf52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '075498ba4f6af7a31e0cc1e6a9901cd9') in 0.0020123 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Tilemap/tileset-1_114.asset
-  artifactKey: Guid(dbb610704ef76e8439889d3718cd2d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_114.asset using Guid(dbb610704ef76e8439889d3718cd2d92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93fd96864522208e77d04997153ad241') in 0.0022292 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_499.asset
-  artifactKey: Guid(e7a4e28cb0f55de4cb1c2d4ed7cd9961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_499.asset using Guid(e7a4e28cb0f55de4cb1c2d4ed7cd9961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad921df54dcdaab7ea840ea32b0845b1') in 0.0035121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_257.asset
-  artifactKey: Guid(48f6f1007ea88ed4d8512d2c387eee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_257.asset using Guid(48f6f1007ea88ed4d8512d2c387eee2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '55d9fe8ab3e4f894beee01339f7ec480') in 0.0025627 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1190.asset
-  artifactKey: Guid(6cd36e1cc2cfdc848964bce7e492deb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1190.asset using Guid(6cd36e1cc2cfdc848964bce7e492deb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6209e72d03368a9328c96bfe7c58f099') in 0.0019635 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1035.asset
-  artifactKey: Guid(76e5ad192124a374fbc6445c06dc4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1035.asset using Guid(76e5ad192124a374fbc6445c06dc4864) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66dda2b758cd4296f9bb82533dd56ca3') in 0.0025294 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_177.asset
-  artifactKey: Guid(ffe6b643efe0a944e93f4f98c1b95a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_177.asset using Guid(ffe6b643efe0a944e93f4f98c1b95a7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4f72a0ff73c76a01562e4945fd5d18bc') in 0.0024001 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_874.asset
-  artifactKey: Guid(75c08682915577a4ba5807054c5c3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_874.asset using Guid(75c08682915577a4ba5807054c5c3368) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6638703c42d70988a8da9a88e2a3b60') in 0.0027407 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tilemap/tileset-1_708.asset
-  artifactKey: Guid(5f79650be90e46347b7ea2a8a77fdaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_708.asset using Guid(5f79650be90e46347b7ea2a8a77fdaca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94f87123bf97f8eb916c72e927c1ea80') in 0.0020676 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_529.asset
-  artifactKey: Guid(7dc285b7cfa7462429db26a101329f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_529.asset using Guid(7dc285b7cfa7462429db26a101329f69) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '61348bfbe51bab99b2ba0f99b3854603') in 0.0024836 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemap/tileset-1_713.asset
-  artifactKey: Guid(02bab094457181c4bbe290ec153ffe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_713.asset using Guid(02bab094457181c4bbe290ec153ffe75) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc2f6ae26fc09d29c7a127e0a4d2481d') in 0.0027373 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_387.asset
-  artifactKey: Guid(b62b11de28c0131469f6317b96cebb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_387.asset using Guid(b62b11de28c0131469f6317b96cebb3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9afe59d24a3d849f709de2d1f5b828fc') in 0.0021327 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_390.asset
-  artifactKey: Guid(bda8d11341bde3a42a1bdf63a07061d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_390.asset using Guid(bda8d11341bde3a42a1bdf63a07061d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '64a4adf7c00aa3fbeb394a0f0c2f74f9') in 0.0023868 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_283.asset
-  artifactKey: Guid(c5d871d54cb19d94fa43fea0d280ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_283.asset using Guid(c5d871d54cb19d94fa43fea0d280ff91) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4193c65bd9b1494ff403740898262db') in 0.0041002 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_530.asset
-  artifactKey: Guid(7750d6c1a0b92cc428093cd144ec8f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_530.asset using Guid(7750d6c1a0b92cc428093cd144ec8f39) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd74d8ab6a9800aca1222c23da9b13ab') in 0.0026121 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tilemap/tileset-1_149.asset
-  artifactKey: Guid(158083496a357824e985ca8ae459e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_149.asset using Guid(158083496a357824e985ca8ae459e465) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e3e73c0096a869acae7e55be51be2b1b') in 0.0025082 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_538.asset
-  artifactKey: Guid(35543e4a1cec0434eafd209cc8ba2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_538.asset using Guid(35543e4a1cec0434eafd209cc8ba2f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5eef01ef8541f1d96e6026921754593d') in 0.0021297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_527.asset
-  artifactKey: Guid(e1ee76f142c9c464d9c8dab31d657f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_527.asset using Guid(e1ee76f142c9c464d9c8dab31d657f50) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ed982e648ac207f0d35017573be7e75') in 0.0024577 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_87.asset
-  artifactKey: Guid(3ad410bc22b08b04782f9e373f51cf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_87.asset using Guid(3ad410bc22b08b04782f9e373f51cf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd22cb1e865d3ef32f98518a8c5f9056c') in 0.0020172 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/Tilemap/tileset-1_875.asset
-  artifactKey: Guid(682910c3903ea6f43b2aef4874647088) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_875.asset using Guid(682910c3903ea6f43b2aef4874647088) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '04a420dbf7bef526d7cac69523c8ed41') in 0.0025639 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1705.asset
-  artifactKey: Guid(62059dc6b8b29344f8df104c0a1d24c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1705.asset using Guid(62059dc6b8b29344f8df104c0a1d24c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'de0afd3852ef29da0488a0ba22b7342a') in 0.0022016 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_382.asset
-  artifactKey: Guid(17fe0c9df051f2241a43501aa130fe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_382.asset using Guid(17fe0c9df051f2241a43501aa130fe33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '95951b0b96a7c6a8ea6ad6b763b28b2b') in 0.0038942 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_277.asset
-  artifactKey: Guid(a02e04559864cfe41ae304f07feb6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_277.asset using Guid(a02e04559864cfe41ae304f07feb6a0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dfd7cd82167c162ee7415b24061d5ee0') in 0.0022855 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1356.asset
-  artifactKey: Guid(399b1f3d38634374680a8754e8b3058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1356.asset using Guid(399b1f3d38634374680a8754e8b3058e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0ea5f4ae8a0dac46e361cc3a12c5856e') in 0.0031693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1036.asset
-  artifactKey: Guid(687e1fd41896aa443a817bfa51bda90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1036.asset using Guid(687e1fd41896aa443a817bfa51bda90f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '604cb2cd2f17618a1b824fe472c447a8') in 0.0024164 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_535.asset
-  artifactKey: Guid(5e9a0597ec9e1814ab36455c4ab8a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_535.asset using Guid(5e9a0597ec9e1814ab36455c4ab8a5d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e05aa84f9d5bfbcaea9c996b9b50107a') in 0.0024376 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Tilemap/tileset-1_1197.asset
-  artifactKey: Guid(0d7c295de90f4324a8ebd4725083ec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1197.asset using Guid(0d7c295de90f4324a8ebd4725083ec5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4852527427f38aa85db974789ccafb8a') in 0.0023079 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_1578.asset
-  artifactKey: Guid(556d447935a8506488c34f2dc711f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1578.asset using Guid(556d447935a8506488c34f2dc711f96e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aa7e8be83730fb96a9271d3911107a3b') in 0.0026621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemap/tileset-1_1545.asset
-  artifactKey: Guid(51e4c3b181a709148b616a2e37d682b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1545.asset using Guid(51e4c3b181a709148b616a2e37d682b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f47c8d1b6b85f96502e93a5b4aca96a1') in 0.0033647 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_407.asset
-  artifactKey: Guid(fecd12ab1567b74438b49ded94a5ff29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_407.asset using Guid(fecd12ab1567b74438b49ded94a5ff29) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a406ec1f4fc603a3b10b2227495e49b') in 0.0023136 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_286.asset
-  artifactKey: Guid(67f4b5f4bde2542468ae5877c400cb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_286.asset using Guid(67f4b5f4bde2542468ae5877c400cb93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8f48e0acd6a9a2c6cc2d886534029cb3') in 0.0024392 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_1576.asset
-  artifactKey: Guid(25e83d646dd60e542b6d839f50e2cf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1576.asset using Guid(25e83d646dd60e542b6d839f50e2cf8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f23ba4d4b2bb3d5ef4742f8d92761db4') in 0.0023748 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_1397.asset
-  artifactKey: Guid(381076d0e9921714f84180baedcf50ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1397.asset using Guid(381076d0e9921714f84180baedcf50ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c6a9048df4c2cf39d0ed958fb73004b') in 0.0021454 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1599.asset
-  artifactKey: Guid(6547475561f34484e9b69603ff635e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1599.asset using Guid(6547475561f34484e9b69603ff635e9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1b0b8a67d4c9c964cc9eda36f79266e') in 0.0025651 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1728.asset
-  artifactKey: Guid(347a071193b1ab4428eeac25670c25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1728.asset using Guid(347a071193b1ab4428eeac25670c25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a8eef136128aa93fcb3bafec7504730d') in 0.0025634 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_1757.asset
-  artifactKey: Guid(45f5bdf61051fa84189a382ee2006ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1757.asset using Guid(45f5bdf61051fa84189a382ee2006ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5e7769813008bfbe91f5a13a83d984b') in 0.0027409 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1590.asset
-  artifactKey: Guid(19a8fe7ba56d06a4b9ac2d4dd88eb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1590.asset using Guid(19a8fe7ba56d06a4b9ac2d4dd88eb30c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8a9d545f408b4265c048b21ad52e5fc7') in 0.0023611 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemap/tileset-1_710.asset
-  artifactKey: Guid(8806aaaffea49aa4d83289be5c6c2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_710.asset using Guid(8806aaaffea49aa4d83289be5c6c2680) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80c8452aa04dbdac66f059aca88d1359') in 0.0022809 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemap/tileset-1_1642.asset
-  artifactKey: Guid(118c4c0f87e10e241af9fa70091ea619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1642.asset using Guid(118c4c0f87e10e241af9fa70091ea619) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1bc7b034d4e94e60ea6731ac2dc742eb') in 0.0023679 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1643.asset
-  artifactKey: Guid(8e4c34fe6e436c44a9216c1828ace805) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1643.asset using Guid(8e4c34fe6e436c44a9216c1828ace805) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42706be5c4cb33d209de04a8d545e6ec') in 0.0021763 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1435.asset
-  artifactKey: Guid(598630cba50b401479a4ca1eb3942377) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1435.asset using Guid(598630cba50b401479a4ca1eb3942377) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ea0c94232da1a0360dd62dadc71efbc4') in 0.0023865 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_881.asset
-  artifactKey: Guid(d9dfdbede90a60547827b8a63aa217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_881.asset using Guid(d9dfdbede90a60547827b8a63aa217bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '531fdda8f670b1ef9096645bfeeac4e7') in 0.0023193 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1539.asset
-  artifactKey: Guid(f2c8af657c6816c4d9f5baccb52fb454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1539.asset using Guid(f2c8af657c6816c4d9f5baccb52fb454) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5055dbcc7ec7d67435ca2863ab3ea8c5') in 0.0026037 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_1444.asset
-  artifactKey: Guid(e647e00cb0550894e8779b666c106bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1444.asset using Guid(e647e00cb0550894e8779b666c106bbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a51c7c24541657e6532f9876a6ad0b8') in 0.0033368 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1407.asset
-  artifactKey: Guid(574057a75669b5f4abd56794aaa6f019) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1407.asset using Guid(574057a75669b5f4abd56794aaa6f019) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a70d267cbb23eecfdf4897d27a6b236a') in 0.0024297 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_110.asset
-  artifactKey: Guid(91ec5062e922b0d44adb5b8b4c4d55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_110.asset using Guid(91ec5062e922b0d44adb5b8b4c4d55d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27d05fd5968ed0da9a98a995c0bb907f') in 0.0022175 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tilemap/tileset-1_1251.asset
-  artifactKey: Guid(cf9ffc64cdf4e5040b130637cf1e7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1251.asset using Guid(cf9ffc64cdf4e5040b130637cf1e7228) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '281de422da56d218600d465537bbae66') in 0.0029772 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/Tilemap/tileset-1_882.asset
-  artifactKey: Guid(1bc076c724ea4c14c8223d65923089b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_882.asset using Guid(1bc076c724ea4c14c8223d65923089b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1303c90bc8f34e1a5d9618e962ee9bb') in 0.0021844 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_876.asset
-  artifactKey: Guid(819bd46c4fa93194da978f945f236a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_876.asset using Guid(819bd46c4fa93194da978f945f236a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '361bc4bfc8631f60b6a80a1930e8568e') in 0.0027974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_104.asset
-  artifactKey: Guid(3a1067e5a9663c24eba75c83b899532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_104.asset using Guid(3a1067e5a9663c24eba75c83b899532e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'baba1c9360c91a847f7fae90811a151e') in 0.0021276 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1384.asset
-  artifactKey: Guid(97dae551714f5ae4da69b88b30e3eb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1384.asset using Guid(97dae551714f5ae4da69b88b30e3eb46) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c68e4fe766e8c995c26ce7af0c5fe067') in 0.0040593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1709.asset
-  artifactKey: Guid(13a88e83f3f954b40bb3718282468f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1709.asset using Guid(13a88e83f3f954b40bb3718282468f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '060bfb9a92e2801b8109ad3345bf1ee5') in 0.0023199 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_378.asset
-  artifactKey: Guid(9ba44439d00e93f4fabf21b06a9873bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_378.asset using Guid(9ba44439d00e93f4fabf21b06a9873bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f49f7c93bd6510d58959a38e57171a8') in 0.0028382 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemap/tileset-1_879.asset
-  artifactKey: Guid(5b604b27637c6ec4cbd47169cefec272) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_879.asset using Guid(5b604b27637c6ec4cbd47169cefec272) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae2e88c09270cc25df69c2f388322d16') in 0.0031536 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Tilemap/tileset-1_704.asset
-  artifactKey: Guid(16582f078baed2b46a77ac47ddc4b9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_704.asset using Guid(16582f078baed2b46a77ac47ddc4b9f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38360a74635ef729cf199a55d79c81c8') in 0.0023073 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Tilemap/tileset-1_1194.asset
-  artifactKey: Guid(fc040e96c749788419cb34987f4ae701) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1194.asset using Guid(fc040e96c749788419cb34987f4ae701) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b810ea3d3bb93d6a1086f9822cecd555') in 0.0024756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_1147.asset
-  artifactKey: Guid(baacc042fa8289f4485f7d662360b630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1147.asset using Guid(baacc042fa8289f4485f7d662360b630) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44f476a21841c9dd9a57a8a0ea2919bd') in 0.0034837 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tilemap/tileset-1_1609.asset
-  artifactKey: Guid(c9933904b1461d547a18954b8d62d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1609.asset using Guid(c9933904b1461d547a18954b8d62d241) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ceddcc0eff4de8d8e18ac67d70f4d170') in 0.0037633 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_1535.asset
-  artifactKey: Guid(41cad3ee500834540b6774acb817a316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1535.asset using Guid(41cad3ee500834540b6774acb817a316) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a178c5b9875b46d99386c87b805f1a8d') in 0.002519 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_1631.asset
-  artifactKey: Guid(6e95c41fbe70deb4bbd78af735ee6b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1631.asset using Guid(6e95c41fbe70deb4bbd78af735ee6b84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '39045c1ef19b79b92dbc4e9f7f39ca63') in 0.0025967 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_408.asset
-  artifactKey: Guid(3d2f02b64094d404197fea1b1e8edf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_408.asset using Guid(3d2f02b64094d404197fea1b1e8edf20) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f1992cba8d76fbb54cb1893267bdbc8') in 0.0021963 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_888.asset
-  artifactKey: Guid(f2a2f231b3de5ad43931c5c34d92a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_888.asset using Guid(f2a2f231b3de5ad43931c5c34d92a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f586aa62d8bc029c93d5191482843125') in 0.0039719 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_423.asset
-  artifactKey: Guid(dfb3d6e45aee88044a7f967725be0527) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_423.asset using Guid(dfb3d6e45aee88044a7f967725be0527) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5efcb716f5958b0a5ed36cea77efe4d0') in 0.002261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_1661.asset
-  artifactKey: Guid(7fd096bfe20b5d045bd88cc5b74a679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1661.asset using Guid(7fd096bfe20b5d045bd88cc5b74a679e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5342ac09c85969a56a9fe9f6177cd059') in 0.003277 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemap/tileset-1_1718.asset
-  artifactKey: Guid(b541de8bcae7443458354ade50752ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1718.asset using Guid(b541de8bcae7443458354ade50752ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '272c3cbfaeaebace5c09d2616777f698') in 0.002605 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_142.asset
-  artifactKey: Guid(a3bd196892c3dfb4cb0aee14c0b78b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_142.asset using Guid(a3bd196892c3dfb4cb0aee14c0b78b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f01efe0a9e5cf49d1f1a9a31beaa45f') in 0.0024737 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_1641.asset
-  artifactKey: Guid(25da18cda80d357448b84b25e63d6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1641.asset using Guid(25da18cda80d357448b84b25e63d6eb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3231c1105389341f274e37b9366067c4') in 0.0033677 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_1399.asset
-  artifactKey: Guid(25297a2a26438d24289138df74cd7e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1399.asset using Guid(25297a2a26438d24289138df74cd7e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e48f6f66becc421ee37081b2d70fbf09') in 0.0022387 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_711.asset
-  artifactKey: Guid(f5abf23f41ce3764383f5b2a8c398a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_711.asset using Guid(f5abf23f41ce3764383f5b2a8c398a03) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fddd84569a1681060c8350ee93e9a60b') in 0.0025468 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1727.asset
-  artifactKey: Guid(12857a9b76e78db47a1c0bf322d6289f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1727.asset using Guid(12857a9b76e78db47a1c0bf322d6289f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42134f00687ecaff677ed726490195db') in 0.0021151 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/Top Right.asset
-  artifactKey: Guid(35ca158a82f44d4468c925c93b7f1bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/Top Right.asset using Guid(35ca158a82f44d4468c925c93b7f1bc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27fb6d1c0d7acf743fa8733e0c3518e8') in 0.0029311 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/Tilemap/tileset-1_1346.asset
-  artifactKey: Guid(96cdab318c923c34a91c8961dc1ea284) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1346.asset using Guid(96cdab318c923c34a91c8961dc1ea284) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38b75f4571614fe55c102fcf539e2ab2') in 0.0025694 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_743.asset
-  artifactKey: Guid(edd97a3b733e1974f9650434e171efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_743.asset using Guid(edd97a3b733e1974f9650434e171efe0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7cadaaae5a278cd63cb2262170d5a507') in 0.0034312 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Tilemap/tileset-1_107.asset
-  artifactKey: Guid(5dcd59e423267eb448c89a511eb89944) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_107.asset using Guid(5dcd59e423267eb448c89a511eb89944) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb79855568fadcc8c2ab18298827d572') in 0.0034167 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1514.asset
-  artifactKey: Guid(6dddea4f40bfc1a429015aa68b043515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1514.asset using Guid(6dddea4f40bfc1a429015aa68b043515) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd7bbc4565d28b99a5580e88a4dc92f1') in 0.0021882 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1440.asset
-  artifactKey: Guid(80e3016e7bef71f44ab851429d9dff0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1440.asset using Guid(80e3016e7bef71f44ab851429d9dff0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ec1a6433fa5a4767e804fef3ec20e81a') in 0.0026697 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_714.asset
-  artifactKey: Guid(cc633b2840e81714a8b4fdf027ae6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_714.asset using Guid(cc633b2840e81714a8b4fdf027ae6988) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f539694fd420cab1d85a43d8ba6eec7d') in 0.0029235 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_628.asset
-  artifactKey: Guid(02bc6ee0da93ee542a9200ec45c0d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_628.asset using Guid(02bc6ee0da93ee542a9200ec45c0d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34a413c36819af6f8ae51fb2173c06ac') in 0.0028047 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_206.asset
-  artifactKey: Guid(751586b7f2fff8b46b12e3e84ce4e3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_206.asset using Guid(751586b7f2fff8b46b12e3e84ce4e3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4483cad18eb7ef6ef0f363924577bf54') in 0.0022492 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1632.asset
-  artifactKey: Guid(d9f1530944237c742a77ee3933d4bcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1632.asset using Guid(d9f1530944237c742a77ee3933d4bcd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e369b606c58ad0775b03cb7e03b7cb81') in 0.0024734 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1677.asset
-  artifactKey: Guid(d6f4a9cc60daf5948a8964e4b3324f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1677.asset using Guid(d6f4a9cc60daf5948a8964e4b3324f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2ccd7dceccb0b6092f61120081a571e7') in 0.0036039 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_869.asset
-  artifactKey: Guid(2ba039e7dad303b46ad2de4afbf59d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_869.asset using Guid(2ba039e7dad303b46ad2de4afbf59d70) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b662a91a316ff9c01ac56505bca68986') in 0.0023223 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Tilemap/tileset-1_1254.asset
-  artifactKey: Guid(a82ab0f17c994ae4090fcc314f85379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1254.asset using Guid(a82ab0f17c994ae4090fcc314f85379e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ce66e1d51fe081326b79cf54ea5281e') in 0.003323 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_71.asset
-  artifactKey: Guid(6f3ef5c3fbaa7bb4f99a4b3c64b7e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_71.asset using Guid(6f3ef5c3fbaa7bb4f99a4b3c64b7e29b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e2a9649b03ec0317e9e30fa1cfe002e0') in 0.0031873 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1634.asset
-  artifactKey: Guid(e95b8a7b973494b458329451af992760) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1634.asset using Guid(e95b8a7b973494b458329451af992760) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c49e2292e8c3ee8e466d981466827fa') in 0.0021917 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_1676.asset
-  artifactKey: Guid(7f789936ab2d3924ba1956a57d250756) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1676.asset using Guid(7f789936ab2d3924ba1956a57d250756) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c62ce0fa00a7981c61099afea6dc0b2d') in 0.0022397 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_614.asset
-  artifactKey: Guid(72b5bb9d430951c41a3b70c9b8a37ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_614.asset using Guid(72b5bb9d430951c41a3b70c9b8a37ef0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '675b350a2e98c4bab05ffec6f4188bf1') in 0.0049226 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_1245.asset
-  artifactKey: Guid(3e1eae69e9d2d594f92acf581b7d66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1245.asset using Guid(3e1eae69e9d2d594f92acf581b7d66f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f1f77daffa4e15afe786b38311457c2f') in 0.0022593 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1187.asset
-  artifactKey: Guid(8b6e0624354c27d4ca0b80507d289b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1187.asset using Guid(8b6e0624354c27d4ca0b80507d289b27) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc6a9df9789efeab0926647939ead58a') in 0.0024473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1038.asset
-  artifactKey: Guid(613ec4cb7aaae62438b77c18d38f9df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1038.asset using Guid(613ec4cb7aaae62438b77c18d38f9df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce8b304d22fc078e02e2d89ea82c770f') in 0.0030111 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Tilemap/tileset-1_493.asset
-  artifactKey: Guid(18dafebc267dc2e4c82f6216e8b6ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_493.asset using Guid(18dafebc267dc2e4c82f6216e8b6ccab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '035454a9c74ce4ce035413ee3dab0de9') in 0.0035735 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemap/tileset-1_1199.asset
-  artifactKey: Guid(21aada0b4ed94694482e854d391e25a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1199.asset using Guid(21aada0b4ed94694482e854d391e25a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '01c34681f855c6d6dc9edbcf3eeeea6e') in 0.0022269 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1611.asset
-  artifactKey: Guid(a6c9ce1aefb7bed4496b7ddeb8cf1b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1611.asset using Guid(a6c9ce1aefb7bed4496b7ddeb8cf1b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '57b6de818aeeae94bf3827ca550801ca') in 0.0024358 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Tilemap/tileset-1_153.asset
-  artifactKey: Guid(91e63c232e36a834f8a8156fdcee2614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_153.asset using Guid(91e63c232e36a834f8a8156fdcee2614) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '81926fbad409007e92a6c1ee41fe234b') in 0.0021549 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_83.asset
-  artifactKey: Guid(d0e17634f1b3c42458357e8f2da0aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_83.asset using Guid(d0e17634f1b3c42458357e8f2da0aadf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2b072d598853cef423f72ff7e12babbe') in 0.003316 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1195.asset
-  artifactKey: Guid(e428acd25ebfca94cb14b5c1a04ed306) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1195.asset using Guid(e428acd25ebfca94cb14b5c1a04ed306) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fdaa57443aa283da0a8aab74c32fa18e') in 0.002025 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_150.asset
-  artifactKey: Guid(e47d9c6f4bbf48a49895308c385b042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_150.asset using Guid(e47d9c6f4bbf48a49895308c385b042a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b89fd9513d8c823ae0ea981055d8fef1') in 0.0029405 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Tilemap/tileset-1_253.asset
-  artifactKey: Guid(18a6823afad8c574bb66909f5ecbb1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_253.asset using Guid(18a6823afad8c574bb66909f5ecbb1e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3134935359bce258bbec48c0089c1604') in 0.0027384 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_886.asset
-  artifactKey: Guid(83a0d457ac0a1eb42bf4cc71248df078) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_886.asset using Guid(83a0d457ac0a1eb42bf4cc71248df078) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '695dde5f33f0643fee0a95472b4941b8') in 0.0024921 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Tilemap/tileset-1_901.asset
-  artifactKey: Guid(2e4ba36de2eef3841891ea4217c88596) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_901.asset using Guid(2e4ba36de2eef3841891ea4217c88596) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aad6de8c11a9964f043c98aff4195665') in 0.0024693 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Tilemap/tileset-1_1391.asset
-  artifactKey: Guid(622c95cccc9b74947a428aef65f5a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1391.asset using Guid(622c95cccc9b74947a428aef65f5a207) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'abfe6bafc39363a4ad09ac5aa7c2e75d') in 0.0021419 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Tilemap/tileset-1_1388.asset
-  artifactKey: Guid(1c35917c18f82824f92277f64604b79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1388.asset using Guid(1c35917c18f82824f92277f64604b79b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9cd558116f5cb58d424ed76c4771a14') in 0.002739 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_188.asset
-  artifactKey: Guid(7c150192f64d305469408fe886891a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_188.asset using Guid(7c150192f64d305469408fe886891a7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '525781e72b0d1afdd1113f4ad593d91b') in 0.0032426 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_106.asset
-  artifactKey: Guid(4ad380e780587364ab4fbb30b37b7a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_106.asset using Guid(4ad380e780587364ab4fbb30b37b7a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99e354eded06e90dff4ed50bcb835799') in 0.0021486 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1748.asset
-  artifactKey: Guid(9e9a705c157447b4f89e211d3ed6e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1748.asset using Guid(9e9a705c157447b4f89e211d3ed6e05a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4b8fdb965c0f8d0e59048c518d9a230') in 0.0021753 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_1034.asset
-  artifactKey: Guid(eeaf238641a70df4c85fa165c2f883a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1034.asset using Guid(eeaf238641a70df4c85fa165c2f883a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d2eb0748ff9eec6d5d0fbb545bc0646') in 0.0024994 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Tilemap/tileset-1_748.asset
-  artifactKey: Guid(4094082f375ec1b4e9fad9b8b0aadabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_748.asset using Guid(4094082f375ec1b4e9fad9b8b0aadabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '202fa6f9b9fcd5ad79ab5678aa0268dc') in 0.0026603 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Tilemap/tileset-1_1708.asset
-  artifactKey: Guid(09fa03c6ed13e024db5b97bd52e70c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1708.asset using Guid(09fa03c6ed13e024db5b97bd52e70c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '70790cff8b3e63daa5b48e93b1af4a0b') in 0.0031863 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Tilemap/tileset-1_1753.asset
-  artifactKey: Guid(06dfd6e0d89a6da4a903e27ec80b6872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1753.asset using Guid(06dfd6e0d89a6da4a903e27ec80b6872) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '60061b1adc4efe80a0eb2369d547aa39') in 0.002879 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Tilemap/tileset-1_624.asset
-  artifactKey: Guid(4a0a1a581c54a1a4ca691dfcf822caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_624.asset using Guid(4a0a1a581c54a1a4ca691dfcf822caf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fda8f524773c2d1c6b6b7ef7503a3683') in 0.0034501 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1603.asset
-  artifactKey: Guid(8a8534341d7d0c3488ca199bdb299d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1603.asset using Guid(8a8534341d7d0c3488ca199bdb299d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aded6c4e4928eb5830d74d1084ecd1d4') in 0.0025261 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Tilemap/tileset-1_1600.asset
-  artifactKey: Guid(2d4a60b46828f6f46a4fd1210e7687d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1600.asset using Guid(2d4a60b46828f6f46a4fd1210e7687d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8865fc5a9c4a2e893b54e6f269faeb60') in 0.0026246 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_496.asset
-  artifactKey: Guid(a3fdb359a1aed814d968c552b9e9c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_496.asset using Guid(a3fdb359a1aed814d968c552b9e9c1de) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc2fb3fe062b4a76ebb98738543109e9') in 0.002621 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_1509.asset
-  artifactKey: Guid(2118722b47adceb408cac9310c1b63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1509.asset using Guid(2118722b47adceb408cac9310c1b63df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cb797737c90e9e226408f2fc11804a8') in 0.0050669 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Tilemap/tileset-1_190.asset
-  artifactKey: Guid(593bb37da6cf2424791888e836c43e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_190.asset using Guid(593bb37da6cf2424791888e836c43e5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c1a82c777743b6f07ccb78bf039010cc') in 0.0024712 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Tilemap/tileset-1_494.asset
-  artifactKey: Guid(cef66f68c7ee6ec4ba875715c23f677c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_494.asset using Guid(cef66f68c7ee6ec4ba875715c23f677c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc74856060e4e1a387dc6d492d03e860') in 0.0027337 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Tilemap/tileset-1_1711.asset
-  artifactKey: Guid(2a52bc621fb30714196ecbb2a8b4726e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_1711.asset using Guid(2a52bc621fb30714196ecbb2a8b4726e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '001d9d8a957ea955358249b3c7091c5c') in 0.0023424 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Tilemap/tileset-1_625.asset
-  artifactKey: Guid(4f5fbab011fe40c4db62e535917a2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tilemap/tileset-1_625.asset using Guid(4f5fbab011fe40c4db62e535917a2062) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1064eaaf26cae0273a1dbdb0633ba38a') in 0.0031571 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 45.505735 seconds.
-  path: Assets/MyPrefabas
-  artifactKey: Guid(fa11687cfe1a69e45bc50024626a87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyPrefabas using Guid(fa11687cfe1a69e45bc50024626a87e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd02164493a80287fe3640f618aa22cce') in 0.0008665 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.223238 seconds.
-  path: Assets/MyPrefabas/Enemy1.prefab
-  artifactKey: Guid(7ab28425ea3e8c541a98af32c412a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyPrefabas/Enemy1.prefab using Guid(7ab28425ea3e8c541a98af32c412a42b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b1785b5fa261aeb2aed342ad3cba5d3') in 0.011654 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.875740 seconds.
-  path: Assets/MyMaterial
-  artifactKey: Guid(bab2584b093028a4582952bd376788db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyMaterial using Guid(bab2584b093028a4582952bd376788db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '65a72df9b2369d7b874b2e780e0de720') in 0.0004972 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.175562 seconds.
-  path: Assets/MyScript
-  artifactKey: Guid(597e348dc11e3914095103e4e57ec2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyScript using Guid(597e348dc11e3914095103e4e57ec2ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b279d5c65fab5227c7f7148f66eb4f2e') in 0.0006282 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.044999 seconds.
-  path: Assets/MyScript/Gold 0 (1).prefab
-  artifactKey: Guid(b8eb59cd8e608104fa9ed8aa15d1306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyScript/Gold 0 (1).prefab using Guid(b8eb59cd8e608104fa9ed8aa15d1306e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ad31e86c6b88ea2c3223146ec5e68f78') in 0.0017558 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.356452 seconds.
-  path: Assets/MyScript/Coin.cs
-  artifactKey: Guid(cb632a939824d6a46ae9a49895447ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyScript/Coin.cs using Guid(cb632a939824d6a46ae9a49895447ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd89dbb89e42f76eeacaa49c54e136b40') in 0.0004756 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.842479 seconds.
-  path: Assets/MyMaterial/Friction.physicsMaterial2D
-  artifactKey: Guid(f99c54edb1aa8dc4bbc6b4086bbfa7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyMaterial/Friction.physicsMaterial2D using Guid(f99c54edb1aa8dc4bbc6b4086bbfa7a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd12a99ae82f25fba6f9fab3eb1850e23') in 0.0009547 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.077006 seconds.
-  path: Assets/MyMaterial/Heart6.png
-  artifactKey: Guid(496d2284a996d8647a9e8e5b328406d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyMaterial/Heart6.png using Guid(496d2284a996d8647a9e8e5b328406d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d702c54af3f9eab376ed5cb8b02199b') in 0.0750928 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.788436 seconds.
-  path: Assets/Animation
-  artifactKey: Guid(de6f18f70d8ccdb41a91e8f0d6508cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation using Guid(de6f18f70d8ccdb41a91e8f0d6508cf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '924a035b3c57d3540053327da2dfe44b') in 0.0006431 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Unloading 6542 unused Assets / (4.8 MB). Loaded Objects now: 7221.
+Memory consumption went from 177.4 MB to 172.6 MB.
+Total: 10.179400 ms (FindLiveObjects: 0.720400 ms CreateObjectMapping: 0.607100 ms MarkObjects: 5.450700 ms  DeleteObjects: 3.400100 ms)
 
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.760 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.733 seconds
+Refreshing native plugins compatible for Editor in 1.23 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.800 seconds
-Domain Reload Profiling: 1563ms
+- Finished resetting the current domain, in  0.830 seconds
+Domain Reload Profiling: 1565ms
 	BeginReloadAssembly (230ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (54ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (460ms)
-		LoadAssemblies (335ms)
+		CreateAndSetChildDomain (53ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (340ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (239ms)
-			TypeCache.Refresh (11ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (213ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (800ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (830ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (613ms)
+		SetupLoadedEditorAssemblies (624ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (475ms)
-			ProcessInitializeOnLoadMethodAttributes (62ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (70ms)
+			ProcessInitializeOnLoadAttributes (463ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
 			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+		AwakeInstancesAfterBackupRestoration (14ms)
+Refreshing native plugins compatible for Editor in 2.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6538 unused Assets / (4.1 MB). Loaded Objects now: 7230.
-Memory consumption went from 152.6 MB to 148.4 MB.
-Total: 9.310800 ms (FindLiveObjects: 0.702600 ms CreateObjectMapping: 0.705000 ms MarkObjects: 5.468900 ms  DeleteObjects: 2.432900 ms)
+Unloading 6540 unused Assets / (4.2 MB). Loaded Objects now: 7224.
+Memory consumption went from 147.7 MB to 143.6 MB.
+Total: 15.913000 ms (FindLiveObjects: 1.066200 ms CreateObjectMapping: 1.707800 ms MarkObjects: 8.472800 ms  DeleteObjects: 4.664500 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Prepare
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.690 seconds
-Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.722 seconds
+Refreshing native plugins compatible for Editor in 1.25 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.746 seconds
-Domain Reload Profiling: 1440ms
+- Finished resetting the current domain, in  0.779 seconds
+Domain Reload Profiling: 1504ms
 	BeginReloadAssembly (210ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (13ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (416ms)
-		LoadAssemblies (330ms)
+		CreateAndSetChildDomain (51ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (332ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (10ms)
+		AnalyzeDomain (201ms)
+			TypeCache.Refresh (7ms)
 				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (174ms)
+			BuildScriptInfoCaches (182ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (747ms)
+	FinalizeReload (780ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (570ms)
+		SetupLoadedEditorAssemblies (600ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (58ms)
-			ProcessInitializeOnLoadAttributes (434ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (64ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (3.5 MB). Loaded Objects now: 7226.
+Memory consumption went from 147.7 MB to 144.2 MB.
+Total: 10.659300 ms (FindLiveObjects: 0.732900 ms CreateObjectMapping: 0.709900 ms MarkObjects: 6.520200 ms  DeleteObjects: 2.695000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.018 seconds
+Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.004 seconds
+Domain Reload Profiling: 4027ms
+	BeginReloadAssembly (431ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (125ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (2425ms)
+		LoadAssemblies (2512ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (231ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (207ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1005ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (659ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (71ms)
+			ProcessInitializeOnLoadAttributes (506ms)
+			ProcessInitializeOnLoadMethodAttributes (66ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.71 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.4 MB). Loaded Objects now: 7234.
-Memory consumption went from 152.6 MB to 148.2 MB.
-Total: 8.995800 ms (FindLiveObjects: 0.740500 ms CreateObjectMapping: 0.779600 ms MarkObjects: 4.860800 ms  DeleteObjects: 2.612300 ms)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7228.
+Memory consumption went from 147.7 MB to 143.6 MB.
+Total: 7.992800 ms (FindLiveObjects: 0.663600 ms CreateObjectMapping: 0.656800 ms MarkObjects: 4.590100 ms  DeleteObjects: 2.081100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.672 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.772 seconds
+Domain Reload Profiling: 1446ms
+	BeginReloadAssembly (213ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (396ms)
+		LoadAssemblies (312ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (175ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (588ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (450ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (3.9 MB). Loaded Objects now: 7230.
+Memory consumption went from 147.7 MB to 143.8 MB.
+Total: 13.075600 ms (FindLiveObjects: 1.176800 ms CreateObjectMapping: 1.572400 ms MarkObjects: 6.915500 ms  DeleteObjects: 3.409500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.654 seconds
+Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.736 seconds
+Domain Reload Profiling: 1394ms
+	BeginReloadAssembly (202ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (385ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (184ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (165ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (736ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (559ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (420ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7232.
+Memory consumption went from 147.7 MB to 143.5 MB.
+Total: 14.349800 ms (FindLiveObjects: 1.158100 ms CreateObjectMapping: 1.431800 ms MarkObjects: 7.574500 ms  DeleteObjects: 4.183700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.651 seconds
+Refreshing native plugins compatible for Editor in 1.32 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.744 seconds
+Domain Reload Profiling: 1398ms
+	BeginReloadAssembly (200ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (383ms)
+		LoadAssemblies (298ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (166ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (744ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (558ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (61ms)
+			ProcessInitializeOnLoadAttributes (417ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7234.
+Memory consumption went from 147.7 MB to 143.7 MB.
+Total: 12.261300 ms (FindLiveObjects: 0.854800 ms CreateObjectMapping: 1.272900 ms MarkObjects: 6.623200 ms  DeleteObjects: 3.509200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.679 seconds
+Refreshing native plugins compatible for Editor in 1.37 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.737 seconds
+Domain Reload Profiling: 1420ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (46ms)
+	RebuildCommonClasses (41ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (309ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (193ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (174ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (738ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (562ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (62ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 2.75 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7236.
+Memory consumption went from 147.7 MB to 143.6 MB.
+Total: 13.033300 ms (FindLiveObjects: 0.769200 ms CreateObjectMapping: 0.756300 ms MarkObjects: 7.491300 ms  DeleteObjects: 4.015000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.653 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 1401ms
+	BeginReloadAssembly (199ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (48ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (395ms)
+		LoadAssemblies (307ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (168ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (746ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (567ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (428ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7238.
+Memory consumption went from 147.8 MB to 143.6 MB.
+Total: 13.361000 ms (FindLiveObjects: 0.810100 ms CreateObjectMapping: 1.548500 ms MarkObjects: 7.765100 ms  DeleteObjects: 3.235700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.692 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1426ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (49ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (408ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (204ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (185ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (731ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (557ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (410ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.13 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7240.
+Memory consumption went from 147.8 MB to 143.6 MB.
+Total: 10.514500 ms (FindLiveObjects: 0.915200 ms CreateObjectMapping: 1.065000 ms MarkObjects: 5.033100 ms  DeleteObjects: 3.500200 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 206.428620 seconds.
-  path: Assets/Simple 2D Platformer BE2
-  artifactKey: Guid(d96f05a65e233a547b610ce8b7d60f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2 using Guid(d96f05a65e233a547b610ce8b7d60f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f32d5ab9133a70e7583a1411ada94fa8') in 0.0135433 seconds
+  Time since last request: 103320.691813 seconds.
+  path: Assets/MyScript/Enemy1.cs
+  artifactKey: Guid(0cd961e87659f044897cce7729ee12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MyScript/Enemy1.cs using Guid(0cd961e87659f044897cce7729ee12c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a078160d5dd3a440fddb993a51b1a2de') in 0.0533014 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.023607 seconds.
-  path: Assets/Simple 2D Platformer BE2/Readme.asset
-  artifactKey: Guid(53e51aee442d4ef479557f25a7bd3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Readme.asset using Guid(53e51aee442d4ef479557f25a7bd3230) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6ede6b881d9bf89b18fc933e1898842a') in 0.0196074 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.725 seconds
+Refreshing native plugins compatible for Editor in 1.27 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.823 seconds
+Domain Reload Profiling: 1552ms
+	BeginReloadAssembly (235ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (66ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (419ms)
+		LoadAssemblies (334ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (199ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (179ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (630ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (476ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Refreshing native plugins compatible for Editor in 3.00 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.2 MB). Loaded Objects now: 7244.
+Memory consumption went from 148.2 MB to 144.0 MB.
+Total: 13.532900 ms (FindLiveObjects: 0.936600 ms CreateObjectMapping: 1.264700 ms MarkObjects: 7.352500 ms  DeleteObjects: 3.976000 ms)
 
+Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Import Request.
-  Time since last request: 1.532004 seconds.
-  path: Assets/Simple 2D Platformer BE2/Sprites
-  artifactKey: Guid(d35022487eaac8945aa36ed98707fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Sprites using Guid(d35022487eaac8945aa36ed98707fea2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '51d7f78fe7e5da7fcbb5f6fda8a19328') in 0.0008752 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.710 seconds
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.824 seconds
+Domain Reload Profiling: 1537ms
+	BeginReloadAssembly (226ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (14ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (24ms)
+	LoadAllAssembliesAndSetupDomain (412ms)
+		LoadAssemblies (335ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (192ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (172ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (624ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (63ms)
+			ProcessInitializeOnLoadAttributes (472ms)
+			ProcessInitializeOnLoadMethodAttributes (72ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 3.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7246.
+Memory consumption went from 148.3 MB to 144.2 MB.
+Total: 14.050000 ms (FindLiveObjects: 1.116900 ms CreateObjectMapping: 1.401500 ms MarkObjects: 7.589200 ms  DeleteObjects: 3.937600 ms)
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.044551 seconds.
-  path: Assets/Simple 2D Platformer BE2/Sprites/Coins.png
-  artifactKey: Guid(274d64617113287499ed1c4165d1d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Sprites/Coins.png using Guid(274d64617113287499ed1c4165d1d8f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42c12c5ee08cdf127c20f3515b2dc612') in 0.0945569 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 14
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Simple 2D Platformer BE2/Sprites/Objects.png
-  artifactKey: Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Sprites/Objects.png using Guid(f73dfe034c22cfc41bd7e8799020a5ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8c31201513d90ae659ff9f1290f1e28a') in 0.0218351 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Simple 2D Platformer BE2/Sprites/Player.png
-  artifactKey: Guid(10f3cacccb0c4c547be76836eba20664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Sprites/Player.png using Guid(10f3cacccb0c4c547be76836eba20664) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dd53682210b845327f48a6df9d249c96') in 0.0349473 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
-
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Prepare: number of updated asset objects reloaded= 0
