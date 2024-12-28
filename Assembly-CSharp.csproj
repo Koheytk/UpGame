@@ -65,6 +65,7 @@
     <Analyzer Include="D:\Program Files\Unity Hub\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MyScript\Shop.cs" />
     <Compile Include="Assets\MyScript\Item1.cs" />
     <Compile Include="Assets\MyScript\GameManager.cs" />
     <Compile Include="Assets\MyScript\Coin.cs" />

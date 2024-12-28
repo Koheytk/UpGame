@@ -40,7 +40,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!GameManager.isDead)
+        if(!GameManager.isDead && GameManager.isActive)
         {
             //歩く
             float x=Input.GetAxisRaw("Horizontal");
@@ -88,7 +88,7 @@ public class Player : MonoBehaviour
             
             AnimationChange(velX,velY);
         }
-        else
+        else if(GameManager.isDead)
         {
             Dead();
         }
@@ -163,6 +163,18 @@ public class Player : MonoBehaviour
         if(other.gameObject.CompareTag("Shop"))
         {           
             shopText.SetActive(true);
+        }
+    }
+
+    void OnTriggerStay2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Shop"))
+        {          
+            if(Input.GetKey(KeyCode.I))
+            {
+                other.gameObject.GetComponent<Shop>().ShopOpen();
+            } 
+            
         }
     }
 

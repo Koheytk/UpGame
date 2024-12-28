@@ -19,7 +19,7 @@ public class CameraMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(!GameManager.isDead)
+        if(!GameManager.isDead && GameManager.isActive)
         {
             timer+=Time.deltaTime;
             if(timer>levelUpTime)

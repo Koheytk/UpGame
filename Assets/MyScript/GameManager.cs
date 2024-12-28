@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static bool isDead;
+    public static bool isActive;
     [SerializeField]
     private List<GameObject> tileMap;
     [SerializeField]
@@ -16,7 +17,8 @@ public class GameManager : MonoBehaviour
 
     public int level;
     void Start()
-    {        
+    {       
+        isActive=true; 
         hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
         level=2;
     }
