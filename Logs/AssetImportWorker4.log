@@ -1,0 +1,489 @@
+Using pre-set license
+Built from '6000.0/release' branch; Version is '6000.0.29f1 (9fafe5c9db65) revision 10465253'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'ja' Physical Memory: 65114 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity Hub\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+D:/kohet/UpUpUp
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+58614
+-job-worker-count
+7
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: D:/kohet/UpUpUp
+D:/kohet/UpUpUp
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12016]  Target information:
+
+Player connection [12016]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 2914735893 [EditorId] 2914735893 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-020BEL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12016] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12016] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 7
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/kohet/UpUpUp/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
+    Vendor:   NVIDIA
+    VRAM:     5996 MB
+    Driver:   32.0.15.5612
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity Hub/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity Hub/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity Hub/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002900 seconds.
+- Loaded All Assemblies, in  0.350 seconds
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 653ms
+	BeginReloadAssembly (124ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (304ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (263ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (43ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (8ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (155ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (457ms)
+		LoadAssemblies (316ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (59ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (707ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (587ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6542 unused Assets / (3.5 MB). Loaded Objects now: 7222.
+Memory consumption went from 177.3 MB to 173.8 MB.
+Total: 8.681800 ms (FindLiveObjects: 0.787800 ms CreateObjectMapping: 0.756600 ms MarkObjects: 4.982300 ms  DeleteObjects: 2.153500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 105492.959981 seconds.
+  path: Assets/prehistoric-platformer/fx
+  artifactKey: Guid(8267339f18ed22a4e945975719b1594c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx using Guid(8267339f18ed22a4e945975719b1594c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6df148f8033ae263f71b661d368a801c') in 0.0089417 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.128708 seconds.
+  path: Assets/prehistoric-platformer/sound
+  artifactKey: Guid(2b7331fda032f1a4ab70732d2e84da08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/sound using Guid(2b7331fda032f1a4ab70732d2e84da08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '828dcb7cc60ddc74bb5bc0f6417c9492') in 0.0006084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.042272 seconds.
+  path: Assets/prehistoric-platformer/sound/dinosaur-1.wav
+  artifactKey: Guid(8b5f4f3d62ed4bf45bce75c411ebd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/sound/dinosaur-1.wav using Guid(8b5f4f3d62ed4bf45bce75c411ebd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e56131233a730fc6e4405fa8ab84a4f5') in 0.1386871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/prehistoric-platformer/sound/wood-4.wav
+  artifactKey: Guid(1d2144a825a4ece479d5aa1475822496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/sound/wood-4.wav using Guid(1d2144a825a4ece479d5aa1475822496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440c4d148344f745eeeba60292a9f8a1') in 0.0158775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.886632 seconds.
+  path: Assets/prehistoric-platformer/monsters
+  artifactKey: Guid(046309c880c28034689c0c0a6a39fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters using Guid(046309c880c28034689c0c0a6a39fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98da6872dac6a7a5c7a0b627a064994f') in 0.0005657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077654 seconds.
+  path: Assets/prehistoric-platformer/monsters/bat-1.png
+  artifactKey: Guid(2dfd52d7c40f5a446b86d4e5a077a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/bat-1.png using Guid(2dfd52d7c40f5a446b86d4e5a077a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d384a5516c87208c242a50c7bb473b') in 0.1034276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/prehistoric-platformer/monsters/insect-2.png
+  artifactKey: Guid(c820968fd4c3e4247be178255ea947fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/insect-2.png using Guid(c820968fd4c3e4247be178255ea947fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '084a1d290766e08701f15b353786c02a') in 0.0508253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prehistoric-platformer/monsters/plant-2.png
+  artifactKey: Guid(77ff2452e58757e4db1815ba2113e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/plant-2.png using Guid(77ff2452e58757e4db1815ba2113e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48e2b574bf5347423fc3bdf240d8db7e') in 0.1128686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/prehistoric-platformer/monsters/insect-1.png
+  artifactKey: Guid(45a7f75d03b22b9478d9aed09806b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/insect-1.png using Guid(45a7f75d03b22b9478d9aed09806b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a05974ce8fa7889aca0ef85f9b44701b') in 0.0304739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/monsters/pterodactyl-1.png
+  artifactKey: Guid(15f8e4958b07dd44aaa3de7f074be2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/pterodactyl-1.png using Guid(15f8e4958b07dd44aaa3de7f074be2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cb12cd627463669ee899eb6b12c0a6b') in 0.0501036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.793077 seconds.
+  path: Assets/prehistoric-platformer/fx/particles
+  artifactKey: Guid(a587ccefc994b8a49af8e8cc1d6f90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles using Guid(a587ccefc994b8a49af8e8cc1d6f90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccde248a40b76b6b45979698238dc637') in 0.0006353 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078417 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/leaf-1.png
+  artifactKey: Guid(29787e04ab0141f45918025861c620cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/leaf-1.png using Guid(29787e04ab0141f45918025861c620cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28cdc64290e660839f7071c1b77bc437') in 0.0245459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-2.png
+  artifactKey: Guid(8573d463afc59e14fbe37dfc27350155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-2.png using Guid(8573d463afc59e14fbe37dfc27350155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2daf0d964cb2895428420c0930c535dd') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-3.png
+  artifactKey: Guid(ec4d89620fff15e4e8a22448eed46847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-3.png using Guid(ec4d89620fff15e4e8a22448eed46847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '036bee4d3995babc207215b5552d6a9a') in 0.0201755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-1.png
+  artifactKey: Guid(f2692860f5de89a49a1bfb2c4abfaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-1.png using Guid(f2692860f5de89a49a1bfb2c4abfaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f8fb45a6d540dd65a0db62f6f15bd1') in 0.0191925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/rock-particle-4.png
+  artifactKey: Guid(910b929439629a148b3b4bd15007897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/rock-particle-4.png using Guid(910b929439629a148b3b4bd15007897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7b764396d50841b9e7baeebbbf3bf57') in 0.0191536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-5.png
+  artifactKey: Guid(458033a7ac725044785a21d49663af56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-5.png using Guid(458033a7ac725044785a21d49663af56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b522ff6987746b344a5623123ee723') in 0.0183147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.016435 seconds.
+  path: Assets/prehistoric-platformer/hud
+  artifactKey: Guid(311686ff9f3eadb4a952e747d7d329ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud using Guid(311686ff9f3eadb4a952e747d7d329ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed4337bde6b4f3303d0c3ca360e0d209') in 0.0007499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088238 seconds.
+  path: Assets/prehistoric-platformer/hud/bar-end.png
+  artifactKey: Guid(4c30e579d6367e0488540113fb0d8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud/bar-end.png using Guid(4c30e579d6367e0488540113fb0d8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cee3f834f7b8b5a428a5daa553f759e') in 0.0224356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/prehistoric-platformer/hud/inventory-middle.png
+  artifactKey: Guid(b2d3958bf3753f748914a42c2a98c9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud/inventory-middle.png using Guid(b2d3958bf3753f748914a42c2a98c9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd632c755420c999da98e16ecbe2389') in 0.0225328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/prehistoric-platformer/hud/health-bar-top-2.png
+  artifactKey: Guid(831995e278c242f419d098048fa9e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud/health-bar-top-2.png using Guid(831995e278c242f419d098048fa9e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e940e5b23ff8e7c17702e1bc7905d90') in 0.0208925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.229943 seconds.
+  path: Assets/prehistoric-platformer/items
+  artifactKey: Guid(33b6e10838039df419c8a05c34ca6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items using Guid(33b6e10838039df419c8a05c34ca6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c9170b24032ed6d6943dfbfe85a6af1') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065010 seconds.
+  path: Assets/prehistoric-platformer/items/1.png
+  artifactKey: Guid(fbd86d16b49221d419335b85ec5855be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/1.png using Guid(fbd86d16b49221d419335b85ec5855be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c41964233150442b91d262b3511b5d0d') in 0.0272985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/prehistoric-platformer/items/11.png
+  artifactKey: Guid(a05b3f6b38cffdd4c8b2282605a46a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/11.png using Guid(a05b3f6b38cffdd4c8b2282605a46a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf28bb18b220e4eab64d78b4371dc595') in 0.0200064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/prehistoric-platformer/items/8.png
+  artifactKey: Guid(6c9dd7c227d661a4db8d345992de0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/8.png using Guid(6c9dd7c227d661a4db8d345992de0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '578ba6de760b630ef07748554d28b442') in 0.0228908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prehistoric-platformer/items/16.png
+  artifactKey: Guid(13caa82cd6a327447aac1d6d9e03a681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/16.png using Guid(13caa82cd6a327447aac1d6d9e03a681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff4d9814bccb200ae318f984f31ee49') in 0.0192392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/items/23.png
+  artifactKey: Guid(09f6d460b09af2b47a7f683426267cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/23.png using Guid(09f6d460b09af2b47a7f683426267cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace120382984b4be5719963f88392b3d') in 0.0180429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/prehistoric-platformer/items/21.png
+  artifactKey: Guid(4bd5ba4ec89629a4ca01dc7f7e958e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/21.png using Guid(4bd5ba4ec89629a4ca01dc7f7e958e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817cd152d00388027f7e4cc862dbd1a8') in 0.0207796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.540826 seconds.
+  path: Assets/prehistoric-platformer/items/26.png
+  artifactKey: Guid(618164a106fe09742ad27b01a637d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/26.png using Guid(618164a106fe09742ad27b01a637d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80a21e4c5e9a5a45df39c564db940ac9') in 0.0256455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/prehistoric-platformer/items/32.png
+  artifactKey: Guid(0271a78cf2e576f489b00ac392877d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/32.png using Guid(0271a78cf2e576f489b00ac392877d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1360131bb99c9c097b0f660eff373ce2') in 0.0197096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/prehistoric-platformer/items/40.png
+  artifactKey: Guid(4ec62605c4fd4e54b9c5295227d5062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/40.png using Guid(4ec62605c4fd4e54b9c5295227d5062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab45e75386f1062d009576a74cc5e512') in 0.0217116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/prehistoric-platformer/items/35.png
+  artifactKey: Guid(59c0585fb1dd3754784ea493e26535c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/35.png using Guid(59c0585fb1dd3754784ea493e26535c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '805578dc87620f33b741043d72dc740e') in 0.0220378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182408 seconds.
+  path: Assets/prehistoric-platformer/items/43.png
+  artifactKey: Guid(dedb1851480bb1d4697e51211354424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/43.png using Guid(dedb1851480bb1d4697e51211354424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b02a6d842e4d6074386a1d46b209bf') in 0.0233709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/items/51.png
+  artifactKey: Guid(c4f314923ebf2c546a76cd7d6881f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/51.png using Guid(c4f314923ebf2c546a76cd7d6881f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8252758e0b79548802c88d3d537830d0') in 0.0190737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/prehistoric-platformer/items/48.png
+  artifactKey: Guid(158a149e2bcb68f49b29dd77e24a3a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/48.png using Guid(158a149e2bcb68f49b29dd77e24a3a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba352f1081f8d8da5fa3413b451bfb39') in 0.0184219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/prehistoric-platformer/items/50.png
+  artifactKey: Guid(5537fbc41cea5c144b30a3813c3bfbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/50.png using Guid(5537fbc41cea5c144b30a3813c3bfbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4395c7a831434818639ca63f623b3ed6') in 0.0195588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.035882 seconds.
+  path: Assets/prehistoric-platformer/items/chest.png
+  artifactKey: Guid(fec3830148a4e514da05f4771324a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/chest.png using Guid(fec3830148a4e514da05f4771324a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c334a25422f75cc1acc7e5d183276d4') in 0.0360193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
