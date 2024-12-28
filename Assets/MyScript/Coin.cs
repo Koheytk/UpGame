@@ -27,8 +27,13 @@ public class Coin : MonoBehaviour
         Destroy(gameObject);
         CoinCount++;
         
+        CoinSet();
+        }
+    }
+
+    public static void CoinSet()
+    {
         Text text=GameObject.Find("CoinCount").GetComponent<Text>();
         text.text=""+CoinCount;
-        }
     }
 }

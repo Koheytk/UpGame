@@ -11,6 +11,7 @@ public class Player : MonoBehaviour
     private float speed;
     [SerializeField]
     private float jumpPower;
+    public int jumpLevel=1;
     private bool isGround;
     [SerializeField]
     private LayerMask ground;
@@ -23,18 +24,23 @@ public class Player : MonoBehaviour
 
     [SerializeField]
     private GameObject shopText;
+    private bool inShop;
+
+    private GameObject Shop;
     
 
 
-    public int jump2wait=2;
+    public int jump2wait;
     
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        jump2wait=jumpLevel;
         gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
         playerRb=GetComponent<Rigidbody2D>();
         animator=GetComponent<Animator>();
         spriteRenderer=GetComponent<SpriteRenderer>();
+        Shop=GameObject.Find("Shop");
     }
 
     // Update is called once per frame
@@ -53,7 +59,7 @@ public class Player : MonoBehaviour
             //ジャンプ
             if(isGround)
             {
-                jump2wait=1;
+                jump2wait=jumpLevel;
             }
             if(Input.GetButtonDown("Jump") && jump2wait>0){
                 playerRb.AddForce(Vector2.up*jumpPower,ForceMode2D.Impulse);
@@ -87,6 +93,11 @@ public class Player : MonoBehaviour
 
             
             AnimationChange(velX,velY);
+
+            if(Input.GetKeyDown(KeyCode.I) && inShop)
+            {
+                Shop.GetComponent<Shop>().ShopOpen();
+            }
         }
         else if(GameManager.isDead)
         {
@@ -163,26 +174,18 @@ public class Player : MonoBehaviour
         if(other.gameObject.CompareTag("Shop"))
         {           
             shopText.SetActive(true);
+            inShop=true;
         }
     }
 
-    void OnTriggerStay2D(Collider2D other)
-    {
-        if(other.gameObject.CompareTag("Shop"))
-        {          
-            if(Input.GetKey(KeyCode.I))
-            {
-                other.gameObject.GetComponent<Shop>().ShopOpen();
-            } 
-            
-        }
-    }
+    
 
     void OnTriggerExit2D(Collider2D other)
     {
         if(other.gameObject.CompareTag("Shop"))
         {           
             shopText.SetActive(false);
+            inShop=false;
         }
     }
 
