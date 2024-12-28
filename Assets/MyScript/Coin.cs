@@ -27,8 +27,8 @@ public class Coin : MonoBehaviour
         Destroy(gameObject);
         CoinCount++;
         
-        //Text text=GameObject.Find("CoinCount").GetComponent<Text>();
-        //text.text=""+CoinCount;
+        Text text=GameObject.Find("CoinCount").GetComponent<Text>();
+        text.text=""+CoinCount;
         }
     }
 }
