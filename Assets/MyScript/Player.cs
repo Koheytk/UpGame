@@ -27,6 +27,8 @@ public class Player : MonoBehaviour
     private bool inShop;
 
     private GameObject Shop;
+
+    private SoundManager soundManager;
     
 
 
@@ -35,6 +37,7 @@ public class Player : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
         jump2wait=jumpLevel;
         gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
         playerRb=GetComponent<Rigidbody2D>();
@@ -54,7 +57,7 @@ public class Player : MonoBehaviour
             {
                 direction=(int)x;
             }
-            playerRb.AddForce(Vector2.right*x*speed);
+            playerRb.AddForce(Vector2.right*x*speed*Time.deltaTime);
 
             //ジャンプ
             if(isGround)
@@ -62,6 +65,7 @@ public class Player : MonoBehaviour
                 jump2wait=jumpLevel;
             }
             if(Input.GetButtonDown("Jump") && jump2wait>0){
+                soundManager.Play("Jump");
                 playerRb.AddForce(Vector2.up*jumpPower,ForceMode2D.Impulse);
                 jump2wait--;
             }
@@ -155,6 +159,7 @@ public class Player : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Enemy"))
         {
+            soundManager.Play("Damage");
             Debug.Log("Player Damaged");
             Damaged();
             HP--;
@@ -163,6 +168,7 @@ public class Player : MonoBehaviour
 
         if(other.gameObject.CompareTag("Item"))
         {           
+            soundManager.Play("Recover");
             Debug.Log("Player Recover");
             if(HP<GameManager.MaxHP)
             {
@@ -197,6 +203,7 @@ public class Player : MonoBehaviour
 
     void Dead()
     {
+        
         CircleCollider2D circleCollider2D=GetComponent<CircleCollider2D>();
         circleCollider2D.enabled=false;
     }

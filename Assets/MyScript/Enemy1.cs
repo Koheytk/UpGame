@@ -17,8 +17,11 @@ public class Enemy1 : MonoBehaviour
     CircleCollider2D circleCollider2Dtrigger;
     [SerializeField]
     BoxCollider2D boxCollider2D;
+
+    private SoundManager soundManager;
     void Start()
     {
+        soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
         enemyRb=GetComponent<Rigidbody2D>();
         spriteRenderer=GetComponent<SpriteRenderer>();
         player=GameObject.Find("Player");
@@ -71,7 +74,7 @@ public class Enemy1 : MonoBehaviour
 
     private void Dead()
     {
-        
+        soundManager.Play("Attack");
 
         enemyRb.AddForce(new Vector2(0,2),ForceMode2D.Impulse);
         spriteRenderer.flipY=true;

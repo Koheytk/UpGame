@@ -19,8 +19,11 @@ public class Shop : MonoBehaviour
     private int maxHPUpValue=5;
 
     private HitPoint HP;
+
+    private SoundManager soundManager;
     void Start()
     {
+        soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
         HP=GameObject.Find("HP").GetComponent<HitPoint>();
         player=GameObject.Find("Player").GetComponent<Player>();
         if (ShopImage != null)
@@ -38,6 +41,7 @@ public class Shop : MonoBehaviour
 
     public void ShopOpen()
     {   
+        soundManager.Play("Shop");
         ShopImage.SetActive(true);
         StartCoroutine(SizeUp());
         GameManager.isActive=false;
@@ -48,7 +52,7 @@ public class Shop : MonoBehaviour
         for(int size=1;size<150;size++)
         {
             ShopImageRT.localScale+=new Vector3(0.1f,0.1f,0.1f);
-            yield return new WaitForSeconds(Time.deltaTime);
+            yield return new WaitForSeconds(Time.deltaTime/2);
         }
         
     }
@@ -57,6 +61,7 @@ public class Shop : MonoBehaviour
     {
         if(Coin.CoinCount>=jumpLevelUpValue)
         {
+            soundManager.Play("Buy");
             Coin.CoinCount-=jumpLevelUpValue;
             Coin.CoinSet();
             player.jumpLevel++;
@@ -66,12 +71,17 @@ public class Shop : MonoBehaviour
             jumpLevelUpValue++;
             jumpLevelUpValueText.GetComponent<Text>().text=""+jumpLevelUpValue;
         } 
+        else
+        {
+            soundManager.Play("NoBuy");
+        }
     }
 
     public void MaxHpUp()
     {
         if(Coin.CoinCount>=maxHPUpValue && GameManager.MaxHP<8)
         {
+            soundManager.Play("Buy");
             Coin.CoinCount-=maxHPUpValue;
             Coin.CoinSet();
             HP.images[GameManager.MaxHP].color=new Color(0,0,0,255);
@@ -79,6 +89,10 @@ public class Shop : MonoBehaviour
             maxHPUpValue+=5;
             maxHPUpValueText.GetComponent<Text>().text=""+maxHPUpValue;
             
+        }
+        else
+        {
+            soundManager.Play("NoBuy");
         }
     }
 

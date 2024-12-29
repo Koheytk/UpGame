@@ -5,8 +5,11 @@ public class Coin : MonoBehaviour
 {
     private GameObject player;
     public static int CoinCount;
+
+    private SoundManager soundManager;
     void Start()
     {
+        soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
         player=GameObject.Find("Player");
     }
 
@@ -24,10 +27,11 @@ public class Coin : MonoBehaviour
     {
         if(other.gameObject.CompareTag("Player"))
         {
-        Destroy(gameObject);
-        CoinCount++;
-        
-        CoinSet();
+            soundManager.Play("Coin");
+            Destroy(gameObject);
+            CoinCount++;
+            
+            CoinSet();
         }
     }
 

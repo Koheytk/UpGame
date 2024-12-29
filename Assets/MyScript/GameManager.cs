@@ -16,9 +16,15 @@ public class GameManager : MonoBehaviour
     private int HP=3;
     public static int MaxHP=3;
 
+    private SoundManager soundManager;
+
     public int level;
+
+    private bool end;
     void Start()
-    {       
+    {      
+        soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
+
         isActive=true; 
         hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
         level=2;
@@ -57,12 +63,17 @@ public class GameManager : MonoBehaviour
         }
         if(currentHP==0)
         {
+            soundManager.Play("GameOver");
             isDead=true;
         }
     }
 
     private void GameOver()
     {
+        if(!end)
+        {
+            soundManager.Play("GameOver");
+        }
         GameObject Game=GameObject.Find("Game");
         GameObject Over=GameObject.Find("Over");
         GameObject Score=GameObject.Find("LevelText");
@@ -79,5 +90,6 @@ public class GameManager : MonoBehaviour
         Score.transform.localPosition=Vector2.Lerp(Score.transform.localPosition,targetPosition3,speed*Time.deltaTime);
         text.alignment=TextAnchor.MiddleCenter;
         Score.transform.localScale=Vector2.Lerp(Score.transform.localScale,targetScale,speed*Time.deltaTime);
+        end=true;
     }
 }

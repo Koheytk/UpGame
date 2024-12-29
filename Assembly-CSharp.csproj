@@ -67,6 +67,7 @@
   <ItemGroup>
     <Compile Include="Assets\MyScript\Shop.cs" />
     <Compile Include="Assets\MyScript\Item1.cs" />
+    <Compile Include="Assets\MyScript\Title.cs" />
     <Compile Include="Assets\MyScript\GameManager.cs" />
     <Compile Include="Assets\MyScript\Coin.cs" />
     <Compile Include="Assets\MyScript\UILevelManager.cs" />
@@ -77,6 +78,7 @@
     <Compile Include="Assets\MyScript\SpawnPoint.cs" />
     <Compile Include="Assets\MyScript\Enemy1.cs" />
     <Compile Include="Assets\MyScript\CameraMove.cs" />
+    <Compile Include="Assets\MyScript\SoundManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
