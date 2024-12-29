@@ -164,7 +164,7 @@ public class Player : MonoBehaviour
         if(other.gameObject.CompareTag("Item"))
         {           
             Debug.Log("Player Recover");
-            if(HP<3)
+            if(HP<GameManager.MaxHP)
             {
                 HP++;
             }

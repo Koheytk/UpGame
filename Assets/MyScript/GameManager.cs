@@ -14,6 +14,7 @@ public class GameManager : MonoBehaviour
     private SpawnPoint spawnPoint;
     private HitPoint hitPoint;
     private int HP=3;
+    public static int MaxHP=3;
 
     public int level;
     void Start()
@@ -46,12 +47,12 @@ public class GameManager : MonoBehaviour
     {
         if(HP>currentHP)
         {
-            hitPoint.images[HP-1].enabled=false;
+            hitPoint.images[HP-1].color=new Color32(0,0,0,255);
             HP=currentHP;
         }
         else if(HP<currentHP)
         {
-            hitPoint.images[HP].enabled=true;
+            hitPoint.images[HP].color=new Color32(255,255,255,255);
             HP=currentHP;
         }
         if(currentHP==0)

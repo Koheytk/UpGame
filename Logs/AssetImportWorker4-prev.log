@@ -15,7 +15,7 @@ D:/kohet/UpUpUp
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-57254
+58614
 -job-worker-count
 7
 -background-job-worker-count
@@ -59,12 +59,12 @@ D:/kohet/UpUpUp
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [6940]  Target information:
+Player connection [12016]  Target information:
 
-Player connection [6940]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 1464421275 [EditorId] 1464421275 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-020BEL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [12016]  * "[IP] 192.168.1.60 [Port] 0 [Flags] 2 [Guid] 2914735893 [EditorId] 2914735893 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-020BEL1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [6940] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [6940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [12016] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12016] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 7
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -75,7 +75,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-Refreshing native plugins compatible for Editor in 1.97 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.94 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.0.29f1 (9fafe5c9db65)
 [Subsystems] Discovering subsystems at path D:/Program Files/Unity Hub/Editor/Data/Resources/UnitySubsystems
@@ -91,47 +91,47 @@ Initialize mono
 Mono path[0] = 'D:/Program Files/Unity Hub/Editor/Data/Managed'
 Mono path[1] = 'D:/Program Files/Unity Hub/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Program Files/Unity Hub/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: D:/Program Files/Unity Hub/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002622 seconds.
-- Loaded All Assemblies, in  0.344 seconds
+Registered in 0.002900 seconds.
+- Loaded All Assemblies, in  0.350 seconds
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.285 seconds
-Domain Reload Profiling: 629ms
-	BeginReloadAssembly (128ms)
+- Finished resetting the current domain, in  0.304 seconds
+Domain Reload Profiling: 653ms
+	BeginReloadAssembly (124ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (35ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (37ms)
-	LoadAllAssembliesAndSetupDomain (133ms)
-		LoadAssemblies (128ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (44ms)
+	LoadAllAssembliesAndSetupDomain (136ms)
+		LoadAssemblies (124ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (117ms)
+		AnalyzeDomain (133ms)
+			TypeCache.Refresh (132ms)
+				TypeCache.ScanAssembly (120ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (285ms)
+	FinalizeReload (304ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (245ms)
+		SetupLoadedEditorAssemblies (263ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (42ms)
+			InitializePlatformSupportModulesInManaged (43ms)
 			SetLoadedEditorAssemblies (3ms)
 			BeforeProcessingInitializeOnLoad (8ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (55ms)
+			ProcessInitializeOnLoadAttributes (143ms)
+			ProcessInitializeOnLoadMethodAttributes (63ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -140,858 +140,350 @@ Domain Reload Profiling: 629ms
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.675 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
+- Loaded All Assemblies, in  0.687 seconds
+Refreshing native plugins compatible for Editor in 1.50 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.710 seconds
-Domain Reload Profiling: 1384ms
-	BeginReloadAssembly (157ms)
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1393ms
+	BeginReloadAssembly (155ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (445ms)
-		LoadAssemblies (305ms)
+	LoadAllAssembliesAndSetupDomain (457ms)
+		LoadAssemblies (316ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (238ms)
-			TypeCache.Refresh (169ms)
-				TypeCache.ScanAssembly (153ms)
-			BuildScriptInfoCaches (58ms)
+		AnalyzeDomain (241ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (59ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (710ms)
+	FinalizeReload (707ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (586ms)
+		SetupLoadedEditorAssemblies (587ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (55ms)
-			ProcessInitializeOnLoadAttributes (421ms)
-			ProcessInitializeOnLoadMethodAttributes (97ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (422ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
 			AfterProcessingInitializeOnLoad (4ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 205 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6542 unused Assets / (4.2 MB). Loaded Objects now: 7221.
-Memory consumption went from 175.3 MB to 171.1 MB.
-Total: 8.427600 ms (FindLiveObjects: 0.640200 ms CreateObjectMapping: 0.597100 ms MarkObjects: 5.105800 ms  DeleteObjects: 2.083500 ms)
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.678 seconds
-Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.791 seconds
-Domain Reload Profiling: 1471ms
-	BeginReloadAssembly (224ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (392ms)
-		LoadAssemblies (317ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (188ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (168ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (791ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (606ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (468ms)
-			ProcessInitializeOnLoadMethodAttributes (64ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.82 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.3 MB). Loaded Objects now: 7224.
-Memory consumption went from 145.6 MB to 141.3 MB.
-Total: 8.933900 ms (FindLiveObjects: 0.839400 ms CreateObjectMapping: 1.105900 ms MarkObjects: 4.545400 ms  DeleteObjects: 2.442000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 24861.942544 seconds.
-  path: Assets/MyAnimation/Fall.anim
-  artifactKey: Guid(3c54edd04331a304ab42e92b5619cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyAnimation/Fall.anim using Guid(3c54edd04331a304ab42e92b5619cf68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '78f3ccf4574793cbd6ccd16c469912fe') in 0.0266366 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+Unloading 6542 unused Assets / (3.5 MB). Loaded Objects now: 7222.
+Memory consumption went from 177.3 MB to 173.8 MB.
+Total: 8.681800 ms (FindLiveObjects: 0.787800 ms CreateObjectMapping: 0.756600 ms MarkObjects: 4.982300 ms  DeleteObjects: 2.153500 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.227212 seconds.
-  path: Assets/MyAnimation/Jump.anim
-  artifactKey: Guid(11393d5388f5322459a841692bdd4bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyAnimation/Jump.anim using Guid(11393d5388f5322459a841692bdd4bd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0566694d5e1dcc3269b549ced585d842') in 0.0013133 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
-========================================================================
-Received Import Request.
-  Time since last request: 93.652733 seconds.
-  path: Assets/MyScript/Player.cs
-  artifactKey: Guid(d00d0287b48da5149994a75d53db1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MyScript/Player.cs using Guid(d00d0287b48da5149994a75d53db1c68) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3e5790bb01899482c21d3abf2d9d8960') in 0.0005311 seconds
+  Time since last request: 105492.959981 seconds.
+  path: Assets/prehistoric-platformer/fx
+  artifactKey: Guid(8267339f18ed22a4e945975719b1594c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx using Guid(8267339f18ed22a4e945975719b1594c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6df148f8033ae263f71b661d368a801c') in 0.0089417 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.718 seconds
-Refreshing native plugins compatible for Editor in 1.53 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.825 seconds
-Domain Reload Profiling: 1547ms
-	BeginReloadAssembly (220ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (56ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (428ms)
-		LoadAssemblies (341ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (196ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (176ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (826ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (643ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (498ms)
-			ProcessInitializeOnLoadMethodAttributes (65ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.0 MB). Loaded Objects now: 7229.
-Memory consumption went from 146.2 MB to 142.1 MB.
-Total: 9.277700 ms (FindLiveObjects: 0.823800 ms CreateObjectMapping: 0.802700 ms MarkObjects: 5.005100 ms  DeleteObjects: 2.644600 ms)
+Received Import Request.
+  Time since last request: 1.128708 seconds.
+  path: Assets/prehistoric-platformer/sound
+  artifactKey: Guid(2b7331fda032f1a4ab70732d2e84da08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/sound using Guid(2b7331fda032f1a4ab70732d2e84da08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '828dcb7cc60ddc74bb5bc0f6417c9492') in 0.0006084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
 Received Import Request.
-  Time since last request: 212.430791 seconds.
-  path: Assets/Simple 2D Platformer BE2/Sprites/Platforms.png
-  artifactKey: Guid(e85c6e02fda4a004b84664f435ad4d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Sprites/Platforms.png using Guid(e85c6e02fda4a004b84664f435ad4d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee90bec991ee2df4ce229c742dc55f8') in 0.1429282 seconds
+  Time since last request: 0.042272 seconds.
+  path: Assets/prehistoric-platformer/sound/dinosaur-1.wav
+  artifactKey: Guid(8b5f4f3d62ed4bf45bce75c411ebd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/sound/dinosaur-1.wav using Guid(8b5f4f3d62ed4bf45bce75c411ebd8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e56131233a730fc6e4405fa8ab84a4f5') in 0.1386871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/prehistoric-platformer/sound/wood-4.wav
+  artifactKey: Guid(1d2144a825a4ece479d5aa1475822496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/sound/wood-4.wav using Guid(1d2144a825a4ece479d5aa1475822496) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '440c4d148344f745eeeba60292a9f8a1') in 0.0158775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.886632 seconds.
+  path: Assets/prehistoric-platformer/monsters
+  artifactKey: Guid(046309c880c28034689c0c0a6a39fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters using Guid(046309c880c28034689c0c0a6a39fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '98da6872dac6a7a5c7a0b627a064994f') in 0.0005657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.077654 seconds.
+  path: Assets/prehistoric-platformer/monsters/bat-1.png
+  artifactKey: Guid(2dfd52d7c40f5a446b86d4e5a077a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/bat-1.png using Guid(2dfd52d7c40f5a446b86d4e5a077a522) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42d384a5516c87208c242a50c7bb473b') in 0.1034276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/prehistoric-platformer/monsters/insect-2.png
+  artifactKey: Guid(c820968fd4c3e4247be178255ea947fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/insect-2.png using Guid(c820968fd4c3e4247be178255ea947fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '084a1d290766e08701f15b353786c02a') in 0.0508253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/prehistoric-platformer/monsters/plant-2.png
+  artifactKey: Guid(77ff2452e58757e4db1815ba2113e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/plant-2.png using Guid(77ff2452e58757e4db1815ba2113e05c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '48e2b574bf5347423fc3bdf240d8db7e') in 0.1128686 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/prehistoric-platformer/monsters/insect-1.png
+  artifactKey: Guid(45a7f75d03b22b9478d9aed09806b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/insect-1.png using Guid(45a7f75d03b22b9478d9aed09806b9fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a05974ce8fa7889aca0ef85f9b44701b') in 0.0304739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 12
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/monsters/pterodactyl-1.png
+  artifactKey: Guid(15f8e4958b07dd44aaa3de7f074be2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/monsters/pterodactyl-1.png using Guid(15f8e4958b07dd44aaa3de7f074be2e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cb12cd627463669ee899eb6b12c0a6b') in 0.0501036 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
 
 ========================================================================
 Received Import Request.
-  Time since last request: 76.053942 seconds.
-  path: Assets/Simple 2D Platformer BE2/Sprites/Platforms.png
-  artifactKey: Guid(e85c6e02fda4a004b84664f435ad4d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple 2D Platformer BE2/Sprites/Platforms.png using Guid(e85c6e02fda4a004b84664f435ad4d73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a5a1261ce793a4200658c451a34012b') in 0.0340628 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
-
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.702 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.876 seconds
-Domain Reload Profiling: 1584ms
-	BeginReloadAssembly (219ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (417ms)
-		LoadAssemblies (341ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (191ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (170ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (879ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (674ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (5ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (517ms)
-			ProcessInitializeOnLoadMethodAttributes (70ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 2.25 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.4 MB). Loaded Objects now: 7239.
-Memory consumption went from 150.7 MB to 146.3 MB.
-Total: 10.342900 ms (FindLiveObjects: 1.131800 ms CreateObjectMapping: 0.926700 ms MarkObjects: 5.021600 ms  DeleteObjects: 3.261000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.727 seconds
-Refreshing native plugins compatible for Editor in 1.34 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.790 seconds
-Domain Reload Profiling: 1520ms
-	BeginReloadAssembly (224ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (432ms)
-		LoadAssemblies (342ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (210ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (189ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (791ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (599ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (453ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.70 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.2 MB). Loaded Objects now: 7241.
-Memory consumption went from 150.8 MB to 146.6 MB.
-Total: 9.113000 ms (FindLiveObjects: 0.788400 ms CreateObjectMapping: 0.972700 ms MarkObjects: 4.925400 ms  DeleteObjects: 2.423700 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-========================================================================
-Received Import Request.
-  Time since last request: 356.714581 seconds.
-  path: ProjectSettings/TagManager.asset
-  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '77f9dd6f28fd7527787506f1412fa193') in 0.0312046 seconds
+  Time since last request: 7.793077 seconds.
+  path: Assets/prehistoric-platformer/fx/particles
+  artifactKey: Guid(a587ccefc994b8a49af8e8cc1d6f90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles using Guid(a587ccefc994b8a49af8e8cc1d6f90da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ccde248a40b76b6b45979698238dc637') in 0.0006353 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.716 seconds
-Refreshing native plugins compatible for Editor in 1.35 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.850 seconds
-Domain Reload Profiling: 1570ms
-	BeginReloadAssembly (214ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (52ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (438ms)
-		LoadAssemblies (330ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (851ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (649ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (498ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (1ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6541 unused Assets / (4.2 MB). Loaded Objects now: 7243.
-Memory consumption went from 150.7 MB to 146.5 MB.
-Total: 9.390000 ms (FindLiveObjects: 0.664000 ms CreateObjectMapping: 0.655700 ms MarkObjects: 5.628800 ms  DeleteObjects: 2.439300 ms)
+Received Import Request.
+  Time since last request: 0.078417 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/leaf-1.png
+  artifactKey: Guid(29787e04ab0141f45918025861c620cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/leaf-1.png using Guid(29787e04ab0141f45918025861c620cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '28cdc64290e660839f7071c1b77bc437') in 0.0245459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.684 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.825 seconds
-Domain Reload Profiling: 1512ms
-	BeginReloadAssembly (212ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (50ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (407ms)
-		LoadAssemblies (324ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (175ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (826ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (645ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (500ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (7ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.5 MB). Loaded Objects now: 7245.
-Memory consumption went from 150.8 MB to 146.3 MB.
-Total: 10.930600 ms (FindLiveObjects: 0.726400 ms CreateObjectMapping: 0.765800 ms MarkObjects: 6.496300 ms  DeleteObjects: 2.940900 ms)
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-2.png
+  artifactKey: Guid(8573d463afc59e14fbe37dfc27350155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-2.png using Guid(8573d463afc59e14fbe37dfc27350155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2daf0d964cb2895428420c0930c535dd') in 0.022231 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.700 seconds
-Refreshing native plugins compatible for Editor in 1.46 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.833 seconds
-Domain Reload Profiling: 1536ms
-	BeginReloadAssembly (222ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (33ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (411ms)
-		LoadAssemblies (339ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (173ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (833ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (647ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (494ms)
-			ProcessInitializeOnLoadMethodAttributes (69ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 1.78 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.9 MB). Loaded Objects now: 7247.
-Memory consumption went from 150.8 MB to 145.9 MB.
-Total: 10.963900 ms (FindLiveObjects: 0.809800 ms CreateObjectMapping: 0.721300 ms MarkObjects: 5.575000 ms  DeleteObjects: 3.856200 ms)
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-3.png
+  artifactKey: Guid(ec4d89620fff15e4e8a22448eed46847) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-3.png using Guid(ec4d89620fff15e4e8a22448eed46847) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '036bee4d3995babc207215b5552d6a9a') in 0.0201755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.686 seconds
-Refreshing native plugins compatible for Editor in 1.68 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.819 seconds
-Domain Reload Profiling: 1508ms
-	BeginReloadAssembly (216ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (406ms)
-		LoadAssemblies (319ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (819ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (621ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (67ms)
-			ProcessInitializeOnLoadAttributes (471ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.3 MB). Loaded Objects now: 7249.
-Memory consumption went from 150.8 MB to 146.5 MB.
-Total: 9.538700 ms (FindLiveObjects: 0.713000 ms CreateObjectMapping: 0.662600 ms MarkObjects: 5.651700 ms  DeleteObjects: 2.509300 ms)
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-1.png
+  artifactKey: Guid(f2692860f5de89a49a1bfb2c4abfaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-1.png using Guid(f2692860f5de89a49a1bfb2c4abfaca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '66f8fb45a6d540dd65a0db62f6f15bd1') in 0.0191925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 2.17 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6529 unused Assets / (4.1 MB). Loaded Objects now: 7249.
-Memory consumption went from 150.9 MB to 146.8 MB.
-Total: 8.872800 ms (FindLiveObjects: 0.696400 ms CreateObjectMapping: 0.620500 ms MarkObjects: 4.842800 ms  DeleteObjects: 2.712100 ms)
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/rock-particle-4.png
+  artifactKey: Guid(910b929439629a148b3b4bd15007897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/rock-particle-4.png using Guid(910b929439629a148b3b4bd15007897a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a7b764396d50841b9e7baeebbbf3bf57') in 0.0191536 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.854 seconds
-Refreshing native plugins compatible for Editor in 1.75 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.740 seconds
-Domain Reload Profiling: 1598ms
-	BeginReloadAssembly (248ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (47ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (27ms)
-	LoadAllAssembliesAndSetupDomain (520ms)
-		LoadAssemblies (410ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (255ms)
-			TypeCache.Refresh (14ms)
-				TypeCache.ScanAssembly (1ms)
-			BuildScriptInfoCaches (224ms)
-			ResolveRequiredComponents (11ms)
-	FinalizeReload (740ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (531ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (68ms)
-			ProcessInitializeOnLoadAttributes (396ms)
-			ProcessInitializeOnLoadMethodAttributes (49ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (9ms)
-Refreshing native plugins compatible for Editor in 1.74 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.3 MB). Loaded Objects now: 7251.
-Memory consumption went from 150.8 MB to 146.5 MB.
-Total: 8.269600 ms (FindLiveObjects: 0.646700 ms CreateObjectMapping: 0.585000 ms MarkObjects: 4.467400 ms  DeleteObjects: 2.569200 ms)
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/prehistoric-platformer/fx/particles/wood-particle-5.png
+  artifactKey: Guid(458033a7ac725044785a21d49663af56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/fx/particles/wood-particle-5.png using Guid(458033a7ac725044785a21d49663af56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '47b522ff6987746b344a5623123ee723') in 0.0183147 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.785 seconds
-Refreshing native plugins compatible for Editor in 1.28 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.810 seconds
-Domain Reload Profiling: 1600ms
-	BeginReloadAssembly (224ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (53ms)
-	RebuildCommonClasses (36ms)
-	RebuildNativeTypeToScriptingClass (19ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (481ms)
-		LoadAssemblies (360ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (227ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (207ms)
-			ResolveRequiredComponents (8ms)
-	FinalizeReload (810ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (625ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (476ms)
-			ProcessInitializeOnLoadMethodAttributes (66ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 2.13 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.4 MB). Loaded Objects now: 7253.
-Memory consumption went from 150.7 MB to 146.3 MB.
-Total: 9.923600 ms (FindLiveObjects: 0.717400 ms CreateObjectMapping: 0.652200 ms MarkObjects: 5.542500 ms  DeleteObjects: 3.010100 ms)
+Received Import Request.
+  Time since last request: 11.016435 seconds.
+  path: Assets/prehistoric-platformer/hud
+  artifactKey: Guid(311686ff9f3eadb4a952e747d7d329ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud using Guid(311686ff9f3eadb4a952e747d7d329ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ed4337bde6b4f3303d0c3ca360e0d209') in 0.0007499 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.687 seconds
-Refreshing native plugins compatible for Editor in 1.51 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.794 seconds
-Domain Reload Profiling: 1484ms
-	BeginReloadAssembly (212ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (13ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (48ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (25ms)
-	LoadAllAssembliesAndSetupDomain (408ms)
-		LoadAssemblies (326ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (192ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (172ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (794ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (613ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (61ms)
-			ProcessInitializeOnLoadAttributes (465ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.90 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.1 MB). Loaded Objects now: 7255.
-Memory consumption went from 152.7 MB to 148.6 MB.
-Total: 10.016600 ms (FindLiveObjects: 0.824700 ms CreateObjectMapping: 0.747300 ms MarkObjects: 5.739100 ms  DeleteObjects: 2.704200 ms)
+Received Import Request.
+  Time since last request: 0.088238 seconds.
+  path: Assets/prehistoric-platformer/hud/bar-end.png
+  artifactKey: Guid(4c30e579d6367e0488540113fb0d8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud/bar-end.png using Guid(4c30e579d6367e0488540113fb0d8ef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5cee3f834f7b8b5a428a5daa553f759e') in 0.0224356 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.707 seconds
-Refreshing native plugins compatible for Editor in 1.21 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.807 seconds
-Domain Reload Profiling: 1518ms
-	BeginReloadAssembly (208ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (49ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (437ms)
-		LoadAssemblies (316ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (224ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (198ms)
-			ResolveRequiredComponents (14ms)
-	FinalizeReload (807ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (630ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (7ms)
-			BeforeProcessingInitializeOnLoad (63ms)
-			ProcessInitializeOnLoadAttributes (480ms)
-			ProcessInitializeOnLoadMethodAttributes (71ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (11ms)
-Refreshing native plugins compatible for Editor in 1.61 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.5 MB). Loaded Objects now: 7257.
-Memory consumption went from 152.7 MB to 148.2 MB.
-Total: 10.328700 ms (FindLiveObjects: 0.956100 ms CreateObjectMapping: 1.558200 ms MarkObjects: 5.015000 ms  DeleteObjects: 2.796800 ms)
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/prehistoric-platformer/hud/inventory-middle.png
+  artifactKey: Guid(b2d3958bf3753f748914a42c2a98c9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud/inventory-middle.png using Guid(b2d3958bf3753f748914a42c2a98c9a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bbd632c755420c999da98e16ecbe2389') in 0.0225328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.688 seconds
-Refreshing native plugins compatible for Editor in 1.63 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.842 seconds
-Domain Reload Profiling: 1534ms
-	BeginReloadAssembly (209ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (22ms)
-	LoadAllAssembliesAndSetupDomain (417ms)
-		LoadAssemblies (329ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (199ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (178ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (843ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (661ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (8ms)
-			BeforeProcessingInitializeOnLoad (66ms)
-			ProcessInitializeOnLoadAttributes (503ms)
-			ProcessInitializeOnLoadMethodAttributes (72ms)
-			AfterProcessingInitializeOnLoad (8ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.59 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (3.9 MB). Loaded Objects now: 7259.
-Memory consumption went from 152.7 MB to 148.8 MB.
-Total: 7.817100 ms (FindLiveObjects: 0.794400 ms CreateObjectMapping: 0.712600 ms MarkObjects: 4.354500 ms  DeleteObjects: 1.954100 ms)
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/prehistoric-platformer/hud/health-bar-top-2.png
+  artifactKey: Guid(831995e278c242f419d098048fa9e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/hud/health-bar-top-2.png using Guid(831995e278c242f419d098048fa9e61e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e940e5b23ff8e7c17702e1bc7905d90') in 0.0208925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.703 seconds
-Refreshing native plugins compatible for Editor in 1.57 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.880 seconds
-Domain Reload Profiling: 1587ms
-	BeginReloadAssembly (212ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (15ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (46ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (410ms)
-		LoadAssemblies (325ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (195ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (171ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (881ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (670ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (62ms)
-			ProcessInitializeOnLoadAttributes (516ms)
-			ProcessInitializeOnLoadMethodAttributes (76ms)
-			AfterProcessingInitializeOnLoad (6ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (12ms)
-Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (4.4 MB). Loaded Objects now: 7261.
-Memory consumption went from 152.7 MB to 148.3 MB.
-Total: 9.277600 ms (FindLiveObjects: 0.811400 ms CreateObjectMapping: 0.785500 ms MarkObjects: 4.569100 ms  DeleteObjects: 3.110400 ms)
+Received Import Request.
+  Time since last request: 11.229943 seconds.
+  path: Assets/prehistoric-platformer/items
+  artifactKey: Guid(33b6e10838039df419c8a05c34ca6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items using Guid(33b6e10838039df419c8a05c34ca6f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c9170b24032ed6d6943dfbfe85a6af1') in 0.000616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
-Prepare: number of updated asset objects reloaded= 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.690 seconds
-Refreshing native plugins compatible for Editor in 1.38 ms, found 4 plugins.
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.823 seconds
-Domain Reload Profiling: 1515ms
-	BeginReloadAssembly (217ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (14ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (51ms)
-	RebuildCommonClasses (32ms)
-	RebuildNativeTypeToScriptingClass (12ms)
-	initialDomainReloadingComplete (26ms)
-	LoadAllAssembliesAndSetupDomain (405ms)
-		LoadAssemblies (326ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (190ms)
-			TypeCache.Refresh (7ms)
-				TypeCache.ScanAssembly (0ms)
-			BuildScriptInfoCaches (171ms)
-			ResolveRequiredComponents (9ms)
-	FinalizeReload (823ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (625ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (60ms)
-			ProcessInitializeOnLoadAttributes (482ms)
-			ProcessInitializeOnLoadMethodAttributes (68ms)
-			AfterProcessingInitializeOnLoad (5ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (13ms)
-Refreshing native plugins compatible for Editor in 1.48 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6540 unused Assets / (3.9 MB). Loaded Objects now: 7263.
-Memory consumption went from 152.6 MB to 148.7 MB.
-Total: 8.871600 ms (FindLiveObjects: 0.780600 ms CreateObjectMapping: 0.728200 ms MarkObjects: 5.089500 ms  DeleteObjects: 2.271600 ms)
+Received Import Request.
+  Time since last request: 0.065010 seconds.
+  path: Assets/prehistoric-platformer/items/1.png
+  artifactKey: Guid(fbd86d16b49221d419335b85ec5855be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/1.png using Guid(fbd86d16b49221d419335b85ec5855be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c41964233150442b91d262b3511b5d0d') in 0.0272985 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
-Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/prehistoric-platformer/items/11.png
+  artifactKey: Guid(a05b3f6b38cffdd4c8b2282605a46a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/11.png using Guid(a05b3f6b38cffdd4c8b2282605a46a14) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bf28bb18b220e4eab64d78b4371dc595') in 0.0200064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/prehistoric-platformer/items/8.png
+  artifactKey: Guid(6c9dd7c227d661a4db8d345992de0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/8.png using Guid(6c9dd7c227d661a4db8d345992de0d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '578ba6de760b630ef07748554d28b442') in 0.0228908 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/prehistoric-platformer/items/16.png
+  artifactKey: Guid(13caa82cd6a327447aac1d6d9e03a681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/16.png using Guid(13caa82cd6a327447aac1d6d9e03a681) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cff4d9814bccb200ae318f984f31ee49') in 0.0192392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/items/23.png
+  artifactKey: Guid(09f6d460b09af2b47a7f683426267cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/23.png using Guid(09f6d460b09af2b47a7f683426267cf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace120382984b4be5719963f88392b3d') in 0.0180429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/prehistoric-platformer/items/21.png
+  artifactKey: Guid(4bd5ba4ec89629a4ca01dc7f7e958e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/21.png using Guid(4bd5ba4ec89629a4ca01dc7f7e958e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '817cd152d00388027f7e4cc862dbd1a8') in 0.0207796 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.540826 seconds.
+  path: Assets/prehistoric-platformer/items/26.png
+  artifactKey: Guid(618164a106fe09742ad27b01a637d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/26.png using Guid(618164a106fe09742ad27b01a637d3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '80a21e4c5e9a5a45df39c564db940ac9') in 0.0256455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/prehistoric-platformer/items/32.png
+  artifactKey: Guid(0271a78cf2e576f489b00ac392877d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/32.png using Guid(0271a78cf2e576f489b00ac392877d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1360131bb99c9c097b0f660eff373ce2') in 0.0197096 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/prehistoric-platformer/items/40.png
+  artifactKey: Guid(4ec62605c4fd4e54b9c5295227d5062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/40.png using Guid(4ec62605c4fd4e54b9c5295227d5062e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab45e75386f1062d009576a74cc5e512') in 0.0217116 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/prehistoric-platformer/items/35.png
+  artifactKey: Guid(59c0585fb1dd3754784ea493e26535c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/35.png using Guid(59c0585fb1dd3754784ea493e26535c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '805578dc87620f33b741043d72dc740e') in 0.0220378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.182408 seconds.
+  path: Assets/prehistoric-platformer/items/43.png
+  artifactKey: Guid(dedb1851480bb1d4697e51211354424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/43.png using Guid(dedb1851480bb1d4697e51211354424c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8b02a6d842e4d6074386a1d46b209bf') in 0.0233709 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/prehistoric-platformer/items/51.png
+  artifactKey: Guid(c4f314923ebf2c546a76cd7d6881f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/51.png using Guid(c4f314923ebf2c546a76cd7d6881f0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8252758e0b79548802c88d3d537830d0') in 0.0190737 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/prehistoric-platformer/items/48.png
+  artifactKey: Guid(158a149e2bcb68f49b29dd77e24a3a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/48.png using Guid(158a149e2bcb68f49b29dd77e24a3a00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba352f1081f8d8da5fa3413b451bfb39') in 0.0184219 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/prehistoric-platformer/items/50.png
+  artifactKey: Guid(5537fbc41cea5c144b30a3813c3bfbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/50.png using Guid(5537fbc41cea5c144b30a3813c3bfbb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4395c7a831434818639ca63f623b3ed6') in 0.0195588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.035882 seconds.
+  path: Assets/prehistoric-platformer/items/chest.png
+  artifactKey: Guid(fec3830148a4e514da05f4771324a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prehistoric-platformer/items/chest.png using Guid(fec3830148a4e514da05f4771324a838) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9c334a25422f75cc1acc7e5d183276d4') in 0.0360193 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

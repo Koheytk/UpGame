@@ -9,9 +9,19 @@ public class Shop : MonoBehaviour
     private RectTransform ShopImageRT;
     private Player player;
 
-    private int jumpLevelUpValue=1;
+    [SerializeField]
+    private GameObject jumpLevelUpValueText;
+    [SerializeField]
+    private GameObject maxHPUpValueText;
+
+    private int jumpLevelUpValue=2;
+
+    private int maxHPUpValue=5;
+
+    private HitPoint HP;
     void Start()
     {
+        HP=GameObject.Find("HP").GetComponent<HitPoint>();
         player=GameObject.Find("Player").GetComponent<Player>();
         if (ShopImage != null)
         {
@@ -52,7 +62,24 @@ public class Shop : MonoBehaviour
             player.jumpLevel++;
             Text text=GameObject.Find("PlayerLevel").GetComponent<Text>();
             text.text="Lv. "+player.jumpLevel;
+            //増え方は後から変更
+            jumpLevelUpValue++;
+            jumpLevelUpValueText.GetComponent<Text>().text=""+jumpLevelUpValue;
         } 
+    }
+
+    public void MaxHpUp()
+    {
+        if(Coin.CoinCount>=maxHPUpValue && GameManager.MaxHP<8)
+        {
+            Coin.CoinCount-=maxHPUpValue;
+            Coin.CoinSet();
+            HP.images[GameManager.MaxHP].color=new Color(0,0,0,255);
+            GameManager.MaxHP++;
+            maxHPUpValue+=5;
+            maxHPUpValueText.GetComponent<Text>().text=""+maxHPUpValue;
+            
+        }
     }
 
     public void ShopExit()
