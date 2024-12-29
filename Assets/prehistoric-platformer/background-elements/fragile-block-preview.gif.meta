@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fragile-block-preview_0: -4096271999989829877
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

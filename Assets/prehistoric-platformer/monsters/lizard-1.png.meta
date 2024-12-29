@@ -622,7 +622,27 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      lizard-1_0: -8910137854129098740
+      lizard-1_1: 406610765938814314
+      lizard-1_10: -8765405407759307691
+      lizard-1_11: -4431863634265923450
+      lizard-1_12: -4222361756123091714
+      lizard-1_13: -8753737543239799615
+      lizard-1_14: 1306098106783047286
+      lizard-1_15: -4639139678846369061
+      lizard-1_16: 7295913218440116249
+      lizard-1_17: 6418669815035278363
+      lizard-1_18: 5290499037965784386
+      lizard-1_19: 7093491742005762338
+      lizard-1_2: 2811902553075153970
+      lizard-1_3: -5682178874699764163
+      lizard-1_4: -1154217282732826161
+      lizard-1_5: -8063385212872891768
+      lizard-1_6: -4035515226800798384
+      lizard-1_7: 7037521786068893774
+      lizard-1_8: 3934988063310411296
+      lizard-1_9: -5621962551140298491
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

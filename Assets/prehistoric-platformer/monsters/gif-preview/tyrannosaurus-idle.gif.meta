@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tyrannosaurus-idle_0: -3700806289497303524
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      turtle-walk_0: 7347707942959413621
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

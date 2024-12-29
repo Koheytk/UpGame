@@ -722,7 +722,31 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tyrannosaurus-1_0: 304522912837540102
+      tyrannosaurus-1_1: -6793423633852276423
+      tyrannosaurus-1_10: 8512256564336962848
+      tyrannosaurus-1_11: -2982555764912627104
+      tyrannosaurus-1_12: -5624402197671223204
+      tyrannosaurus-1_13: -8323337239790123441
+      tyrannosaurus-1_14: 441410420985710847
+      tyrannosaurus-1_15: 8324458457828986432
+      tyrannosaurus-1_16: 3745822956667737396
+      tyrannosaurus-1_17: -4600384622148702196
+      tyrannosaurus-1_18: 530345448155418447
+      tyrannosaurus-1_19: -1775031395248743371
+      tyrannosaurus-1_2: 3191965857151958981
+      tyrannosaurus-1_20: 3258513863356157930
+      tyrannosaurus-1_21: 6547387567413032866
+      tyrannosaurus-1_22: -182912698056391149
+      tyrannosaurus-1_23: 8704580182866052984
+      tyrannosaurus-1_3: 9048964058700428288
+      tyrannosaurus-1_4: -3341091431873023554
+      tyrannosaurus-1_5: 5523339595461590660
+      tyrannosaurus-1_6: 8627199007934804738
+      tyrannosaurus-1_7: -2361977482884916733
+      tyrannosaurus-1_8: -581698436757741738
+      tyrannosaurus-1_9: 1442522918821706725
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

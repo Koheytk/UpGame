@@ -922,7 +922,39 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      monster-drops_0: 965285840444891373
+      monster-drops_1: 1304774446104554334
+      monster-drops_10: -1717861439546617598
+      monster-drops_11: 6773400789658682519
+      monster-drops_12: -1971505041035656592
+      monster-drops_13: -3511514345658378685
+      monster-drops_14: 994375622301470252
+      monster-drops_15: -4200297191768800433
+      monster-drops_16: 3627463092198769151
+      monster-drops_17: 3033955201274603189
+      monster-drops_18: 5631242501172793899
+      monster-drops_19: -2403750779350799766
+      monster-drops_2: 438815767492060629
+      monster-drops_20: 217138274008289143
+      monster-drops_21: -6852787772700513016
+      monster-drops_22: -4159964866014068066
+      monster-drops_23: -8006196197636697866
+      monster-drops_24: -238914841180325196
+      monster-drops_25: -2424075827386456921
+      monster-drops_26: 8495598685938521602
+      monster-drops_27: 6337443591307359444
+      monster-drops_28: -1329071345974608786
+      monster-drops_29: 8426285290496691689
+      monster-drops_3: -7080439868803798410
+      monster-drops_30: 4649445677495482049
+      monster-drops_31: -7345931688364832278
+      monster-drops_4: 3445841031620798290
+      monster-drops_5: 2029973284209255474
+      monster-drops_6: -901233320391910992
+      monster-drops_7: -1610458554640356608
+      monster-drops_8: 2383364404455236488
+      monster-drops_9: 7770792290051326011
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

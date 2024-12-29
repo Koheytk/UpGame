@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      dragon-2_0: 5759991369860719447
+      dragon-2_1: 2474074607012831567
+      dragon-2_10: 2013889018654043771
+      dragon-2_11: 6183504488913963234
+      dragon-2_12: 291511229241953771
+      dragon-2_13: 7269385539789844392
+      dragon-2_14: -4820572840216230536
+      dragon-2_15: 9204292726837242272
+      dragon-2_2: 2841198250681171599
+      dragon-2_3: -8110995095021095764
+      dragon-2_4: 7274076321615551612
+      dragon-2_5: -409472952268253597
+      dragon-2_6: 4892927740888765395
+      dragon-2_7: -3937895406663525101
+      dragon-2_8: 2079726993307887242
+      dragon-2_9: 4256719511018844444
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

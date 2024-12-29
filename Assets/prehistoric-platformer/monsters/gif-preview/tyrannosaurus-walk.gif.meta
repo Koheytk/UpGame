@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tyrannosaurus-walk_0: 4746909093026558988
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

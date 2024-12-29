@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tyrannosaurus-hit_0: 1420337621456078164
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

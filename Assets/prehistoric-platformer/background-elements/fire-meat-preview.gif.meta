@@ -222,7 +222,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fire-meat-preview_0: 871218710217722612
+      fire-meat-preview_1: -2455871813431043574
+      fire-meat-preview_2: 4701550246919311877
+      fire-meat-preview_3: 7234187611319101555
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

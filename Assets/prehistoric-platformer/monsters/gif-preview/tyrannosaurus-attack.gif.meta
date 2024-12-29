@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tyrannosaurus-attack_0: -9043832902237172910
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

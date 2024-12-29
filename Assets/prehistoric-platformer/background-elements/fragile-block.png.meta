@@ -747,7 +747,32 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fragile-block_0: -3913801292831555909
+      fragile-block_1: 8316457829901663879
+      fragile-block_10: -3030520094755161066
+      fragile-block_11: 7737949257268327394
+      fragile-block_12: 6434441223704011197
+      fragile-block_13: 8148321257461908171
+      fragile-block_14: 7824548597704867126
+      fragile-block_15: 2555890680544617850
+      fragile-block_16: -5619947812147139500
+      fragile-block_17: 938283219518820338
+      fragile-block_18: 3373064210847325056
+      fragile-block_19: -8863623049784083521
+      fragile-block_2: -3751294114543968348
+      fragile-block_20: 5169229939132549087
+      fragile-block_21: -4686177748435333590
+      fragile-block_22: 8713344240680246975
+      fragile-block_23: 933584639547277288
+      fragile-block_24: 2904027939279854343
+      fragile-block_3: -7155824926095274969
+      fragile-block_4: 1459031137052116159
+      fragile-block_5: 571174418625186751
+      fragile-block_6: 8721493323668095036
+      fragile-block_7: 9136405691805356025
+      fragile-block_8: 8040218350549862644
+      fragile-block_9: 662126831800550723
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

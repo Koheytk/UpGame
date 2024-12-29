@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      turtle-death_0: -5330011863584840912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

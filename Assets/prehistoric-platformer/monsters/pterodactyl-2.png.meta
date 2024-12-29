@@ -522,7 +522,23 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      pterodactyl-2_0: 2559260853972829045
+      pterodactyl-2_1: -1197947037986817328
+      pterodactyl-2_10: 5761601357258816946
+      pterodactyl-2_11: 2151208785364939868
+      pterodactyl-2_12: 8660411125526496802
+      pterodactyl-2_13: -2402417197098232474
+      pterodactyl-2_14: 7300118386124298306
+      pterodactyl-2_15: -1781094214339399730
+      pterodactyl-2_2: -2784355671060410519
+      pterodactyl-2_3: -1442176408439565466
+      pterodactyl-2_4: 1750522210744559877
+      pterodactyl-2_5: -7044073271427122088
+      pterodactyl-2_6: 9185072456308275082
+      pterodactyl-2_7: 3107855661031344987
+      pterodactyl-2_8: 5724515710442929251
+      pterodactyl-2_9: 8277132782318293362
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
