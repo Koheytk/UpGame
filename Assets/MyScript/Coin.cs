@@ -9,6 +9,7 @@ public class Coin : MonoBehaviour
     private SoundManager soundManager;
     void Start()
     {
+        CoinCount=0;
         soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
         player=GameObject.Find("Player");
     }

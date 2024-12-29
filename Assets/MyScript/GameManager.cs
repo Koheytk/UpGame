@@ -2,6 +2,8 @@ using UnityEngine;
 using System;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using UnityEditor.SearchService;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -14,7 +16,7 @@ public class GameManager : MonoBehaviour
     private SpawnPoint spawnPoint;
     private HitPoint hitPoint;
     private int HP=3;
-    public static int MaxHP=3;
+    public static int MaxHP;
 
     private SoundManager soundManager;
 
@@ -26,6 +28,8 @@ public class GameManager : MonoBehaviour
         soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
         isActive=true; 
+        isDead=false;
+        MaxHP=3;
         hitPoint=GameObject.Find("HP").GetComponent<HitPoint>();
         level=2;
     }
@@ -91,5 +95,11 @@ public class GameManager : MonoBehaviour
         text.alignment=TextAnchor.MiddleCenter;
         Score.transform.localScale=Vector2.Lerp(Score.transform.localScale,targetScale,speed*Time.deltaTime);
         end=true;
+    }
+
+    public void Restart()
+    {
+        isDead=!isDead;
+        SceneManager.LoadScene("Title");
     }
 }
