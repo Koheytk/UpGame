@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
     private bool end;
     void Start()
     {      
+        Coin.CoinCount=0;
         soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
 
         isActive=true; 

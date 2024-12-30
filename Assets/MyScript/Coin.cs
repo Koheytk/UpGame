@@ -5,11 +5,11 @@ public class Coin : MonoBehaviour
 {
     private GameObject player;
     public static int CoinCount;
+    public int Coins;
 
     private SoundManager soundManager;
     void Start()
     {
-        CoinCount=0;
         soundManager=GameObject.Find("SoundManager").GetComponent<SoundManager>();
         player=GameObject.Find("Player");
     }
@@ -31,7 +31,7 @@ public class Coin : MonoBehaviour
             soundManager.Play("Coin");
             Destroy(gameObject);
             CoinCount++;
-            
+            Debug.Log("Coin Get");
             CoinSet();
         }
     }

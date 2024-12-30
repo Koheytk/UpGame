@@ -20,7 +20,7 @@ public class SpawnManager : MonoBehaviour
     {
         for(int i=0;i<spawnPoint.Count;i++)
         {
-            spawnPoint[i].GetComponent<SpawnPoint>().Spawn();
+            spawnPoint[i].GetComponent<SpawnPoint>().RandomSpawn();
         }
     }
 }

@@ -50,4 +50,26 @@ public class SpawnPoint : MonoBehaviour
     {
         spawnedObject=Instantiate(Coin,transform.position,Quaternion.identity);
     }
+
+    public void RandomSpawn()
+    {
+        gameManager=GameObject.Find("GameManager").GetComponent<GameManager>();
+        randomSpawn=Random.Range(0,3);
+        switch(randomSpawn)
+        {
+            case 0:
+            Spawn();
+            break;
+
+            case 1:
+            if(Coin!=null)
+            {
+                SpawnCoin();
+            }
+            break;
+
+            case 2:
+            break;
+        }
+    }
 }

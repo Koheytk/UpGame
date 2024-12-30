@@ -70,6 +70,7 @@ public class Shop : MonoBehaviour
             //増え方は後から変更
             jumpLevelUpValue++;
             jumpLevelUpValueText.GetComponent<Text>().text=""+jumpLevelUpValue;
+            Debug.Log("Coin Decrease(Jump)");
         } 
         else
         {
@@ -88,7 +89,7 @@ public class Shop : MonoBehaviour
             GameManager.MaxHP++;
             maxHPUpValue+=5;
             maxHPUpValueText.GetComponent<Text>().text=""+maxHPUpValue;
-            
+            Debug.Log("Coin Decrease(HP)");
         }
         else
         {
