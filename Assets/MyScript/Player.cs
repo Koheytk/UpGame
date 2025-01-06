@@ -162,7 +162,10 @@ public class Player : MonoBehaviour
             soundManager.Play("Damage");
             Debug.Log("Player Damaged");
             Damaged();
-            HP--;
+            if(HP!=0)
+            {
+                HP--;
+            }
             gameManager.HitPointSet(HP);
         }
 
