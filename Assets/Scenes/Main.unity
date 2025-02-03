@@ -3015,7 +3015,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2000
-  jumpPower: 15
+  jumpPower: 18
   jumpLevel: 1
   ground:
     serializedVersion: 2

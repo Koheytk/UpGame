@@ -66,6 +66,7 @@ public class Player : MonoBehaviour
             }
             if(Input.GetButtonDown("Jump") && jump2wait>0){
                 soundManager.Play("Jump");
+                playerRb.linearVelocityY=0;
                 playerRb.AddForce(Vector2.up*jumpPower,ForceMode2D.Impulse);
                 jump2wait--;
             }
